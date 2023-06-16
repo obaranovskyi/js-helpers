@@ -1,0 +1,11 @@
+export const DATE = 'date';
+export const UNDEFINED = 'undefined';
+export const NUMBER = 'number';
+export const BOOLEAN = 'boolean';
+export const OBJECT = 'object';
+export const STRING = 'string';
+export const SYMBOL = 'symbol';
+export const REG_EXP = 'regexp';
+export const ARRAY = 'array';
+export const FUNCTION = 'function';
+export const NULL = 'null';

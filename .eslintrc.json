@@ -1,0 +1,21 @@
+{
+  "extends": "standard",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never"
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

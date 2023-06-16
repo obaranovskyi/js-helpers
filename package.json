@@ -1,0 +1,46 @@
+{
+  "name": "js-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 --compilers js:babel-core/register \"specs/**/*.spec.js\"",
+    "test-fn-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/function.spec.js",
+    "test-fnc-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/function-combinators.spec.js",
+    "test-pc-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/predicate-combinator.spec.js",
+    "test-arr-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/array.spec.js",
+    "test-ctx-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/context.spec.js",
+    "test-mth-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/math.spec.js",
+    "test-obj-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/object.spec.js",
+    "test-prd-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/predicate.spec.js",
+    "test-str-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/string.spec.js",
+    "test-type-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/type.spec.js",
+    "test-fl-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/fantasy-land.spec.js",
+    "test-lens-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/lens.spec.js",
+    "test-ds-lib": "mocha --timeout 30000 --compilers js:babel-core/register ./specs/data-structures.spec.js",
+    "compile": "./node_modules/.bin/babel  ./src --experimental --source-maps-inline -d ./dist",
+    "compile-es6-to-node": "./node_modules/.bin/babel ./src --experimental --source-maps-inline -d ./dist",
+    "compile-helpers-js-experimental": "cp -Rf src/* ../helpers-js-experimental && cd ../helpers-js-experimental",
+    "git-push-helpers-js-experimental": "cd ../helpers-js-experimental && git add . && git commit -a -m \"lib update\" && git push",
+    "compile-helpers-js": "./node_modules/.bin/babel ./src --experimental --source-maps-inline -d ../helpers-js",
+    "git-push-helpers-js": "cd ../helpers-js && git add . && git commit -a -m \"lib update\" && git push",
+    "git-push-current": "git add . && git commit -a -m \"lib update\" && git push",
+    "git-push-all": "npm run git-push-current && npm run compile-helpers-js-experimental && npm run git-push-helpers-js-experimental && npm run compile-helpers-js && npm run git-push-helpers-js",
+    "build-docs": "./node_modules/.bin/esdoc",
+    "show-docs": "npm run build-docs && open ./docs/index.html"
+  },
+  "author": "Oleh Baranovskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "chai": "3.5.0",
+    "esdoc": "1.0.4",
+    "esdoc-standard-plugin": "1.0.0",
+    "mocha": "3.1.2"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "6.24.1"
+  }
+}

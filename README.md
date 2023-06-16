@@ -1,0 +1,215 @@
+# JavaScript Utility Library
+
+# Modules
+- Array
+- Context
+- SafeTupleBuilder
+- Tuple
+- Fantasy-Land
+- Function-Combinators
+- Function
+- Lens
+- Math
+- Object
+- Predicate-Combinator
+- Predicate
+- String
+- Type 
+
+
+
+# Functions
+- Array
+  - any
+  - castArray
+  - changeOrder
+  - cloneArray
+  - compact
+  - every
+  - fill
+  - fillLeft
+  - fillRight
+  - filter
+  - find
+  - first
+  - flatten
+  - groupBy
+  - groupByFn
+  - groupByPath
+  - groupByProp
+  - head
+  - last
+  - map
+  - nth
+  - numAndStrComparator
+  - pluck
+  - reject
+  - sample
+  - shuffle
+  - some
+  - sortBy
+  - tail
+  - take
+  - takeRight
+  - takeRightWhile
+  - takeWhile
+  - times
+  - uniq
+  - without
+  - zip
+  - zipWithProjection
+- Constants
+  - EMPTY
+  - ARRAY
+  - BOOLEAN
+  - DATE
+  - FUNCTION
+  - NULL
+  - NUMBER
+  - OBJECT
+  - REG_EXP
+  - STRING
+  - SYMBOL
+  - UNDEFINED
+- Context
+  - invoke
+  - invokeWithCtx
+  - using
+  - wrap
+- Data-Structures
+  - SafeTupleBuilder
+  - Tuple
+- Error
+  - IncorrectArgsTypeError
+  - throwIncorrectArgsTypeErrorIfSomeOf
+- Fantasy-Land
+  - Either
+  - Left
+  - Right
+  - Applicative
+  - Apply
+  - Functor
+  - LazyFunctor
+  - Monad
+  - Just
+  - Maybe
+  - Nothing
+  - isSetoid
+  - toSetoid
+- Function
+ - after
+ - compose
+ - curry
+ - memoize
+ - once
+ - orCurry
+ - partial
+ - pipe
+ - rearg
+ - unary
+- Function-Combinators
+  - alt
+  - always
+  - duplication
+  - flip
+  - fork
+  - identity
+  - seq
+  - tap
+  - thrush
+- Lens
+  - assoc
+  - assocPath
+  - lensIndex
+  - lensProp
+  - path
+  - pathEq
+  - pathOr
+  - pathSatisfies
+  - prop
+- Math
+  - add
+  - compareDecimalNumbers
+  - divide
+  - getRandomInt
+  - getRandomIntFromTo
+  - multiply
+  - subtract
+- Object
+  - cloneObject
+  - conformsTo
+  - deepClone
+  - deepEquals
+  - deepFreeze
+  - getWithCtx
+  - getWithProps
+  - objectProjection
+  - omit
+  - pick
+  - safeGet
+  - safeGetOr
+- Predicate
+  - eq
+  - gt
+  - gte
+  - lt
+  - lte
+  - notEq
+  - range
+  - rangeEqual
+- Predicate-Combinator
+  - and
+  - not
+  - notOr
+  - or
+- String
+  - buildResource
+  - camelCase
+  - equalsIgnoreCase
+  - getFirstLowerLetter
+  - getFirstUpperLetter
+  - getLastLowerLetter
+  - getLastUpperLetter
+  - includes
+  - kebabCase
+  - replaceAll
+  - replaceAllDifferences
+  - snakeCase
+  - trim
+  - upperFirst
+  - words
+- Type
+  - getType
+  - getTypeByClass
+  - isArray
+  - isBoolean
+  - isDate
+  - isFunction
+  - isNaN
+  - isNegativeZero
+  - isNotArray
+  - isNotBoolean
+  - isNotDate
+  - isNotFunction
+  - isNotNaN
+  - isNotNegativeZero
+  - isNotNull
+  - isNotNumber
+  - isNotObject
+  - isNotPrimitive
+  - isNotRegExp
+  - isNotString
+  - isNotSymbol
+  - isNotUndefined
+  - isNull
+  - isNumber
+  - isObject
+  - isPrimitive
+  - isRegExp
+  - isString
+  - isSymbol
+  - isUndefined
+  - notToBe
+  - toBe
+  - typeCheck
+

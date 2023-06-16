@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">specs/fantasy-land.spec.js | js-helpers</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#array">Array</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-any">any</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-castArray">castArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changeOrder">changeOrder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneArray">cloneArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compact">compact</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fill">fill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillLeft">fillLeft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillRight">fillRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-first">first</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flatten">flatten</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupBy">groupBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByFn">groupByFn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByPath">groupByPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByProp">groupByProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-head">head</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-last">last</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nth">nth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-numAndStrComparator">numAndStrComparator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pluck">pluck</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reject">reject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sample">sample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-shuffle">shuffle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sortBy">sortBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tail">tail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-take">take</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRight">takeRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRightWhile">takeRightWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeWhile">takeWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-times">times</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uniq">uniq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-without">without</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zip">zip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zipWithProjection">zipWithProjection</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">Constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EMPTY">EMPTY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ARRAY">ARRAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BOOLEAN">BOOLEAN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DATE">DATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FUNCTION">FUNCTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NULL">NULL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NUMBER">NUMBER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-OBJECT">OBJECT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-REG_EXP">REG_EXP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STRING">STRING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SYMBOL">SYMBOL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UNDEFINED">UNDEFINED</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">Context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invoke">invoke</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invokeWithCtx">invokeWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-using">using</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-wrap">wrap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#data-structures">Data-Structures</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/safe-tuple-builder.js~SafeTupleBuilder.html">SafeTupleBuilder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html">Tuple</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#error">Error</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Error/incorrect-args-type-error.js~IncorrectArgsTypeError.html">IncorrectArgsTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-throwIncorrectArgsTypeErrorIfSomeOf">throwIncorrectArgsTypeErrorIfSomeOf</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fantasy-land">Fantasy-Land</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Either">Either</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Left">Left</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Right">Right</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Applicative">Applicative</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Apply">Apply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Functor">Functor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LazyFunctor">LazyFunctor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Monad">Monad</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Just">Just</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Maybe">Maybe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Nothing">Nothing</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSetoid">isSetoid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toSetoid">toSetoid</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function">Function</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-after">after</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compose">compose</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-curry">curry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-memoize">memoize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-once">once</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-orCurry">orCurry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partial">partial</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pipe">pipe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rearg">rearg</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unary">unary</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function-combinators">Function-Combinators</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-alt">alt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-always">always</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-duplication">duplication</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flip">flip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fork">fork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-identity">identity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-seq">seq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tap">tap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-thrush">thrush</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lens">Lens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assoc">assoc</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assocPath">assocPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensIndex">lensIndex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensProp">lensProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathEq">pathEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathOr">pathOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathSatisfies">pathSatisfies</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-prop">prop</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#math">Math</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compareDecimalNumbers">compareDecimalNumbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-divide">divide</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomInt">getRandomInt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomIntFromTo">getRandomIntFromTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-multiply">multiply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-subtract">subtract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#object">Object</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneObject">cloneObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-conformsTo">conformsTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepClone">deepClone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepEquals">deepEquals</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepFreeze">deepFreeze</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithCtx">getWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithProps">getWithProps</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-objectProjection">objectProjection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-omit">omit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pick">pick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGet">safeGet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGetOr">safeGetOr</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate">Predicate</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq">eq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gt">gt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gte">gte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lt">lt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lte">lte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notEq">notEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-range">range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rangeEqual">rangeEqual</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate-combinator">Predicate-Combinator</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-and">and</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-not">not</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notOr">notOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-or">or</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#string">String</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildResource">buildResource</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-camelCase">camelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-equalsIgnoreCase">equalsIgnoreCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstLowerLetter">getFirstLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstUpperLetter">getFirstUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastLowerLetter">getLastLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastUpperLetter">getLastUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kebabCase">kebabCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAll">replaceAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAllDifferences">replaceAllDifferences</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-snakeCase">snakeCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trim">trim</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-upperFirst">upperFirst</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-words">words</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#type">Type</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getType">getType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTypeByClass">getTypeByClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isArray">isArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isBoolean">isBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isDate">isDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isFunction">isFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNaN">isNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNegativeZero">isNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotArray">isNotArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotBoolean">isNotBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotDate">isNotDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotFunction">isNotFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNaN">isNotNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNegativeZero">isNotNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNull">isNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNumber">isNotNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotObject">isNotObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotPrimitive">isNotPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotRegExp">isNotRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotString">isNotString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotSymbol">isNotSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotUndefined">isNotUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNull">isNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNumber">isNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isObject">isObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPrimitive">isPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isRegExp">isRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isString">isString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSymbol">isSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notToBe">notToBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toBe">toBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeCheck">typeCheck</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">specs/fantasy-land.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as chai from &apos;chai&apos;;
+import { assert, expect } from &apos;chai&apos;;
+
+import { Functor, Apply, Applicative, Monad, LazyFunctor } from &apos;../src/Fantasy-Land&apos;;
+import { Maybe } from &apos;../src/Fantasy-Land/maybe&apos;;
+import { Either } from &apos;../src/Fantasy-Land/either&apos;;
+import { toSetoid, isSetoid } from &apos;../src/Fantasy-Land/setoid&apos;;
+import { identity } from &apos;../src/Function-Combinators&apos;;
+
+
+/** @test {Fantasy-Land} */
+describe(&apos;Fantasy Land Library Tests&apos;, () =&gt; {
+
+  /** @test {Fantasy-Land#Functor} */
+  it(&apos;test: Functor&apos;, () =&gt; {
+    let sideEffectVar = 0
+      , functor = Functor(&apos;  64  &apos;)
+        .map(s =&gt; s.trim())
+        .map(r =&gt; parseInt(r))
+        .tap(v =&gt; sideEffectVar = 3)
+        .map(i =&gt; i + 1)
+        .map(i =&gt; String.fromCharCode(i))
+
+
+    assert.equal(functor.fold(identity), &apos;A&apos;);
+    assert.equal(functor.get(), &apos;A&apos;);
+    assert.equal(sideEffectVar, 3);
+    assert.equal(functor.toString(), &apos;Functor(A)&apos;);
+    assert.equal(functor.inspect(), &apos;Functor(A)&apos;);
+  });
+
+  /** @test {Fantasy-Land#Apply} */
+  it(&apos;test: Apply&apos;, () =&gt; {
+    let sideEffectVar = 0
+      , curry2Add = x =&gt; y =&gt; x + y
+      , apply = Apply(curry2Add)
+        .tap(() =&gt; sideEffectVar = 3)
+
+    assert.equal(sideEffectVar, 3);
+    assert.isFunction(apply.get());
+    assert.isFunction(apply.fold(identity));
+    assert.isFunction(apply.ap(2).get());
+    assert.equal(apply.ap(2).ap(3).get(), 5);
+    assert.equal(apply.ap(2).apGet(3), 5);
+    assert.equal(apply.ap(2).ap(3).toString(), &apos;Apply(5)&apos;);
+    assert.equal(apply.ap(2).ap(3).inspect(), &apos;Apply(5)&apos;);
+    assert.equal(
+      apply
+        .ap(2)
+        .ap(3)
+        .map(n =&gt; `Number is ${n}`)
+        .get()
+      , &apos;Number is 5&apos;);
+  });
+
+  /** @test {Fantasy-Land#Applicative */
+  it(&apos;test: Applicative&apos;, () =&gt; {
+    let sideEffectVar = 0
+      , curry2Add = x =&gt; y =&gt; x + y
+      , applicative = Applicative.of(curry2Add)
+        .tap(() =&gt; sideEffectVar = 3)
+
+    assert.equal(sideEffectVar, 3);
+    assert.isFunction(applicative.get());
+    assert.isFunction(applicative.fold(identity));
+    assert.isFunction(applicative.ap(2).get());
+    assert.equal(applicative.ap(2).ap(3).get(), 5);
+    assert.equal(applicative.ap(2).apGet(3), 5);
+    assert.equal(applicative.ap(2).ap(3).toString(), &apos;Applicative(5)&apos;);
+    assert.equal(applicative.ap(2).ap(3).inspect(), &apos;Applicative(5)&apos;);
+    assert.equal(
+      applicative
+        .ap(2)
+        .ap(3)
+        .map(n =&gt; `Number is ${n}`)
+        .get()
+      , &apos;Number is 5&apos;);
+  });
+
+  /** @test {Fantasy-Land#Monad} */
+  it(&apos;test: Monad&apos;, () =&gt; {
+    let sideEffectVar = 0
+      , curry2Add = x =&gt; y =&gt; x + y
+      , monad = Monad.of(curry2Add)
+        .tap(() =&gt; sideEffectVar = 3)
+
+    assert.equal(sideEffectVar, 3);
+    assert.isFunction(monad.get());
+    assert.isFunction(monad.fold(identity));
+    assert.isFunction(monad.ap(2).get());
+    assert.equal(monad.ap(2).ap(3).get(), 5);
+    assert.equal(monad.ap(2).apGet(3), 5);
+    assert.equal(monad.ap(2).ap(3).toString(), &apos;Monad(5)&apos;);
+    assert.equal(monad.ap(2).ap(3).inspect(), &apos;Monad(5)&apos;);
+    assert.equal(
+      monad
+        .ap(2)
+        .ap(3)
+        .map(n =&gt; `Number is ${n}`)
+        .get()
+      , &apos;Number is 5&apos;);
+
+    assert.equal(
+      monad
+        .ap(2)
+        .ap(3)
+        .chain(v =&gt; Monad.of(v * v))
+        .get()
+      , 25);
+
+    assert.equal(
+      monad
+        .ap(2)
+        .ap(3)
+        .map(v =&gt; Monad.of(v * v))
+        .join()
+        .get()
+      , 25);
+
+    assert.equal(
+      monad
+        .ap(3)
+        .apChain(Monad.of(2))
+        .get()
+      , 5);
+  });
+
+  /** @test {Fantasy-Land#LazyFunctor} */
+  it(&apos;test: LazyFunctor&apos;, () =&gt; {
+    let wasInvoked = false;
+    let multiplyWithInvokeUpdate = x =&gt; {
+      wasInvoked = true;
+      return x * x;
+    }
+
+    assert.isNotNumber(
+      LazyFunctor(() =&gt; 7)
+        .lazyMap(multiplyWithInvokeUpdate)
+        .lazyMap(x =&gt; x * 100)
+    );
+    assert.isFalse(wasInvoked);
+
+    assert.isNumber(
+      LazyFunctor(() =&gt; 7)
+        .lazyMap(multiplyWithInvokeUpdate)
+        .lazyMap(x =&gt; x * 100)
+        .lazyFold(identity)
+    );
+    assert.isTrue(wasInvoked);
+
+    assert.equal(
+      LazyFunctor(() =&gt; 7)
+        .lazyMap(multiplyWithInvokeUpdate)
+        .lazyMap(x =&gt; x * 10)
+        .lazyFold(identity),
+      490
+    );
+  });
+
+  /** @test {Fantasy-Land#Maybe} */
+  describe(&apos;test: Maybe&apos;, () =&gt; {
+
+    /** @test {Fantasy-Land#Maybe#fromNullable} */
+    it(&apos;test: Maybe.fromNullable&apos;, () =&gt; {
+      let positiveMaybe = Maybe.fromNullable(&apos;hello&apos;)
+        , negativeMaybe = Maybe.fromNullable(undefined)
+
+      assert.isTrue(positiveMaybe.isJust);
+      assert.isFalse(positiveMaybe.isNothing);
+
+      assert.isFalse(negativeMaybe.isJust);
+      assert.isTrue(negativeMaybe.isNothing);
+    });
+
+    /** @test {Fantasy-Land#Maybe#of} */
+    it(&apos;test: Maybe.of&apos;, () =&gt; {
+      let positiveMaybe = Maybe.of(&apos;hello&apos;);
+
+      assert.isTrue(positiveMaybe.isJust);
+      assert.isFalse(positiveMaybe.isNothing);
+    });
+
+    /** @test {Fantasy-Land#Maybe#just} */
+    it(&apos;test: Maybe.just&apos;, () =&gt; {
+      let positiveMaybe = Maybe.just(&apos;hello&apos;);
+
+      assert.isTrue(positiveMaybe.isJust);
+      assert.isFalse(positiveMaybe.isNothing);
+    });
+
+    /** @test {Fantasy-Land#Maybe#nothing} */
+    it(&apos;test: Maybe.nothing&apos;, () =&gt; {
+      let positiveMaybe = Maybe.nothing(&apos;hello&apos;);
+
+      assert.isFalse(positiveMaybe.isJust);
+      assert.isTrue(positiveMaybe.isNothing);
+    });
+
+    /** @test {Fantasy-Land#Maybe#map} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#map(f)&apos;, () =&gt; {
+      let positiveMaybe = Maybe.fromNullable(&apos;hello&apos;)
+        , negativeMaybe = Maybe.fromNullable(undefined);
+
+      assert.equal(
+        positiveMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .toString()
+        , &apos;Maybe.Just(HELLO WORLD)&apos;);
+
+      assert.equal(
+        negativeMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .toString()
+        , &apos;Maybe.Nothing()&apos;);
+    });
+
+    /** @test {Fantasy-Land#Maybe#getValue} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#getValue()&apos;, () =&gt; {
+      let positiveMaybe = Maybe.fromNullable(&apos;hello&apos;)
+        , negativeMaybe = Maybe.fromNullable(undefined);
+
+      assert.equal(
+        positiveMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getValue()
+        , &apos;HELLO WORLD&apos;);
+
+      assert.isUndefined(
+        negativeMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getValue());
+    });
+
+    /** @test {Fantasy-Land#Maybe#get} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#get()&apos;, () =&gt; {
+      let positiveMaybe = Maybe.fromNullable(&apos;hello&apos;)
+        , negativeMaybe = Maybe.fromNullable(undefined);
+
+      assert.equal(
+        positiveMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .get()
+        , &apos;HELLO WORLD&apos;);
+
+      expect(
+        negativeMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .get
+      ).to.throw(chai.TypeError, &apos;Can\&apos;t extract the value of a Nothing.&apos;);
+    });
+
+    /** @test {Fantasy-Land#Maybe#getOrElse} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#getOrElse()&apos;, () =&gt; {
+      let positiveMaybe = Maybe.fromNullable(&apos;hello&apos;)
+        , negativeMaybe = Maybe.fromNullable(undefined);
+
+      assert.equal(
+        positiveMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO WORLD&apos;);
+
+      assert.equal(
+        negativeMaybe
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+
+
+    });
+
+    /** @test {Fantasy-Land#Maybe#chain} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#chain()&apos;, () =&gt; {
+      assert.equal(
+        Maybe.just(&apos;hello&apos;)
+          .chain(s =&gt; Maybe.of(s.toUpperCase()))
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO&apos;);
+
+      assert.equal(
+        Maybe.nothing()
+          .chain(s =&gt; Maybe.of(s.toUpperCase()))
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+    });
+
+    /** @test {Fantasy-Land#Maybe#filter} */
+    it(&apos;test: Maybe.Just/Maybe.Nothing#filter()&apos;, () =&gt; {
+      assert.equal(
+        Maybe.just(&apos;hello&apos;)
+          .map(s =&gt; s.toUpperCase())
+          .filter(s =&gt; s === &apos;HELLO&apos;)
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO&apos;);
+
+      assert.equal(
+        Maybe.nothing()
+          .map(s =&gt; s.toUpperCase())
+          .filter(s =&gt; s === &apos;HELLO&apos;)
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+    });
+  });
+
+  /** @test {Fantasy-Land#Either} */
+  describe(&apos;test: Either&apos;, () =&gt; {
+
+    /** @test {Fantasy-Land#Maybe#fromNullable} */
+    it(&apos;test: Either.fromNullable&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined)
+
+      assert.isTrue(positiveEither.isRight);
+      assert.isFalse(positiveEither.isLeft);
+
+      assert.isFalse(negativeEither.isRight);
+      assert.isTrue(negativeEither.isLeft);
+    });
+
+    /** @test {Fantasy-Land#Either#of} */
+    it(&apos;test: Either.of&apos;, () =&gt; {
+      let positiveEither = Either.of(&apos;hello&apos;);
+
+      assert.isTrue(positiveEither.isRight);
+      assert.isFalse(positiveEither.isLeft);
+    });
+
+    /** @test {Fantasy-Land#Either#tryCatch} */
+    it(&apos;test: Either.tryCatch with falsy value&apos;, () =&gt; {
+      const expected = 3000;
+      assert.equal(
+        Either.tryCatch(() =&gt; JSON.parse(&apos;incorrect json&apos;))
+          .map(c =&gt; c.port)
+          .getOrElse(expected)
+      , expected);
+    });
+
+    /** @test {Fantasy-Land#Either#tryCatch} */
+    it(&apos;test: Either.tryCatch with truthy value&apos;, () =&gt; {
+      assert.equal(
+        Either.tryCatch(() =&gt; JSON.parse(&apos;{&quot;port&quot;: 8888}&apos;))
+          .map(c =&gt; c.port)
+          .getOrElse(3000)
+      , 8888);
+    });
+
+    /** @test {Fantasy-Land#Either#tryCatch} */
+    it(&apos;test: double Either.tryCatch&apos;, () =&gt; {
+      const expected = 3000;
+      assert.equal(
+        Either.tryCatch(() =&gt; JSON.parse(&apos;incorrect json&apos;))
+          .map(c =&gt; Either.tryCatch(JSON.parse(&apos;another incorrect json&apos;)))
+          .getOrElse(expected)
+      , expected);
+    });
+
+    /** @test {Fantasy-Land#Either#right} */
+    it(&apos;test: Either.right&apos;, () =&gt; {
+      let positiveEither = Either.right(&apos;hello&apos;);
+
+      assert.isTrue(positiveEither.isRight);
+      assert.isFalse(positiveEither.isLeft);
+    });
+
+    /** @test {Fantasy-Land#Either#left} */
+    it(&apos;test: Either.left&apos;, () =&gt; {
+      let positiveEither = Either.left(&apos;hello&apos;);
+
+      assert.isFalse(positiveEither.isRight);
+      assert.isTrue(positiveEither.isLeft);
+    });
+
+    /** @test {Fantasy-Land#Either#map} */
+    it(&apos;test: Either.Right/Either.Left#map(f)&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .toString()
+        , &apos;Either.Right(HELLO WORLD)&apos;);
+
+      assert.equal(
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .toString()
+        , &apos;Either.Left(undefined)&apos;);
+    });
+
+    /** @test {Fantasy-Land#Either#getValue} */
+    it(&apos;test: Either.Right/Either.Left#getValue()&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getValue()
+        , &apos;HELLO WORLD&apos;);
+
+      assert.isUndefined(
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getValue());
+    });
+
+    /** @test {Fantasy-Land#Either#get} */
+    it(&apos;test: Either.Right/Either.Left#get()&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .get()
+        , &apos;HELLO WORLD&apos;);
+
+      expect(
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .get
+      ).to.throw(chai.TypeError, &apos;Can\&apos;t extract the value of a Left.&apos;);
+    });
+
+    /** @test {Fantasy-Land#Either#getOrElse} */
+    it(&apos;test: Either.Right/Either.Left#getOrElse()&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO WORLD&apos;);
+
+      assert.equal(
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+
+
+    });
+
+    /** @test {Fantasy-Land#Either#chain} */
+    it(&apos;test: Either.Right/Either.Left#chain()&apos;, () =&gt; {
+      assert.equal(
+        Either.right(&apos;hello&apos;)
+          .chain(s =&gt; Either.of(s.toUpperCase()))
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO&apos;);
+
+      assert.equal(
+        Either.left()
+          .chain(s =&gt; Either.of(s.toUpperCase()))
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+    });
+
+    /** @test {Fantasy-Land#Either#filter} */
+    it(&apos;test: Either.Right/Either.Left#filter()&apos;, () =&gt; {
+      assert.equal(
+        Either.right(&apos;hello&apos;)
+          .map(s =&gt; s.toUpperCase())
+          .filter(s =&gt; s === &apos;HELLO&apos;)
+          .getOrElse(&apos;Other&apos;)
+        , &apos;HELLO&apos;);
+
+      assert.equal(
+        Either.left()
+          .map(s =&gt; s.toUpperCase())
+          .filter(s =&gt; s === &apos;HELLO&apos;)
+          .getOrElse(&apos;Other&apos;)
+        , &apos;Other&apos;);
+    });
+
+    /** @test {Fantasy-Land#Either#getOrElseThrow} */
+    it(&apos;test: Either.Rigth/Either.Left#getOrElseThrow(err)&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElseThrow(&apos;some error message&apos;)
+        , &apos;HELLO WORLD&apos;);
+
+      expect(() =&gt;
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .getOrElseThrow(&apos;some error message&apos;)
+      ).to.throw(chai.Error, &apos;some error message&apos;);
+
+    });
+
+    /** @test {Fantasy-Land#Either#orElse} */
+    it(&apos;test: Either.Rigth/Either.Left#orElse(f)&apos;, () =&gt; {
+      let positiveEither = Either.fromNullable(&apos;hello&apos;)
+        , negativeEither = Either.fromNullable(undefined);
+
+      assert.equal(
+        positiveEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .orElse(() =&gt; Either.right(3))
+          .get()
+        , &apos;HELLO WORLD&apos;);
+
+      assert.equal(
+        negativeEither
+          .map(s =&gt; `${s} world`)
+          .map(s =&gt; s.toUpperCase())
+          .orElse(() =&gt; Either.right(3))
+          .get()
+        , 3);
+    });
+  });
+
+  describe(&apos;test: Setoid&apos;, () =&gt; {
+    it(&apos;test: .toSetoid(eqFn) with positive case&apos;, () =&gt; {
+      const comparePeopleFn = (p, p2) =&gt; p.id === p2.id;
+      const PersonSetoid = toSetoid(comparePeopleFn);
+      const person1 = { id: 1, name: &apos;Oleh&apos; };
+      const person2 = { id: 1, name: &apos;Oleh&apos; };
+
+      assert.isTrue(
+        PersonSetoid(person1)
+          .equals(
+            PersonSetoid(person2))
+      );
+
+      assert.isTrue(
+        PersonSetoid(person2)
+          .equals(
+            PersonSetoid(person1))
+      );
+    });
+
+    it(&apos;test: .toSetoid(eqFn) with negative case&apos;, () =&gt; {
+      const comparePeopleFn = (p, p2) =&gt; p.id === p2.id;
+      const PersonSetoid = toSetoid(comparePeopleFn);
+      const person1 = { id: 1, name: &apos;Oleh&apos; }
+      const person2 = { id: 2, name: &apos;Oleh&apos; }
+
+      assert.isFalse(
+        PersonSetoid(person1)
+          .equals(
+            PersonSetoid(person2))
+      );
+
+      assert.isFalse(
+        PersonSetoid(person2)
+          .equals(
+            PersonSetoid(person1))
+      );
+    });
+
+    it(&apos;test: .isSetoid(obj)&apos;, () =&gt; {
+      const comparePeopleFn = (p, p2) =&gt; p.id === p2.id;
+      const PersonSetoid = toSetoid(comparePeopleFn);
+      const person1 = { id: 1, name: &apos;Oleh&apos; }
+      const person2 = {
+        id: 2,
+        name: &apos;Oleh&apos;,
+        equals: p =&gt; true
+      };
+
+      assert.isTrue(isSetoid(PersonSetoid(person1)));
+      assert.isFalse(isSetoid(person1));
+      assert.isFalse(isSetoid(person2));
+    });
+  });
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

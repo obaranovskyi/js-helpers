@@ -1,0 +1,512 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	specs/context.spec.js	/^    class A {$/;"	C
+ARRAY	src/Constants/types.js	/^export const ARRAY = 'array';$/;"	E
+Applicative	dist/Fantasy-Land/applicative.class.js	/^  function Applicative(v) {$/;"	F
+Applicative	src/Fantasy-Land/index.js	/^export function Applicative(f) {$/;"	E
+Apply	src/Fantasy-Land/index.js	/^export function Apply(f) {$/;"	E
+ArrLib	specs/array.spec.js	/^import * as ArrLib from '..\/src\/Array';$/;"	I
+ArrLib	src/Function/index.js	/^import * as ArrLib from '..\/Array';$/;"	I
+ArrLib	src/String/index.js	/^import * as ArrLib from '..\/Array';$/;"	I
+BOOLEAN	src/Constants/types.js	/^export const BOOLEAN = 'boolean';$/;"	E
+CtxLib	specs/context.spec.js	/^import * as CtxLib from '..\/src\/Context';$/;"	I
+DATE	src/Constants/types.js	/^export const DATE = 'date';$/;"	E
+EMPTY	src/Constants/common.js	/^export const EMPTY = undefined;$/;"	E
+Either	dist/Fantasy-Land/either-functor.class.js	/^exports.Either = function Either() {$/;"	M
+Either	src/Fantasy-Land/either.js	/^export function Either() {};$/;"	E
+FUNCTION	src/Constants/types.js	/^export const FUNCTION = 'function';$/;"	E
+FnLib	specs/function.spec.js	/^import * as FnLib from '..\/src\/Function';$/;"	I
+FnLib	src/String/index.js	/^import * as FnLib from '..\/Function';$/;"	I
+FncLib	specs/function-combinators.spec.js	/^import * as FncLib from '..\/src\/Function-Combinators';$/;"	I
+Functor	dist/Fantasy-Land/functor.class.js	/^  function Functor(v) {$/;"	F
+Functor	src/Fantasy-Land/index.js	/^export function Functor(x) {$/;"	E
+Just	src/Fantasy-Land/maybe.js	/^export function Just(value) {$/;"	E
+LazyFunctor	src/Fantasy-Land/index.js	/^export function LazyFunctor(x) {$/;"	E
+Left	dist/Fantasy-Land/either-functor.class.js	/^  function Left(v) {$/;"	F
+Left	dist/Fantasy-Land/either-functor.class.js	/^var Left = function () {$/;"	C
+Left	src/Fantasy-Land/either.js	/^export function Left(value) {$/;"	E
+Maybe	dist/Fantasy-Land/maybe-functor.class.js	/^  function Maybe(v) {$/;"	F
+Maybe	src/Fantasy-Land/maybe.js	/^export function Maybe() {}$/;"	E
+Monad	dist/Fantasy-Land/monad.class.js	/^  function Monad(v) {$/;"	F
+Monad	src/Fantasy-Land/index.js	/^export function Monad(x) {$/;"	E
+MthLib	specs/function-combinators.spec.js	/^import * as MthLib from '..\/src\/Math';$/;"	I
+MthLib	specs/math.spec.js	/^import * as MthLib from '..\/src\/Math';$/;"	I
+NULL	src/Constants/types.js	/^export const NULL = 'null';$/;"	E
+NUMBER	src/Constants/types.js	/^export const NUMBER = 'number';$/;"	E
+Nothing	src/Fantasy-Land/maybe.js	/^export function Nothing(value) {$/;"	E
+OBJECT	src/Constants/types.js	/^export const OBJECT = 'object';$/;"	E
+ObjLib	specs/object.spec.js	/^import * as ObjLib from '..\/src\/Object';$/;"	I
+PcLib	specs/predicate.spec.js	/^import * as PcLib from '..\/src\/Predicate-Combinator';$/;"	I
+PcLib	src/Predicate/index.js	/^import * as PcLib from '..\/Predicate-Combinator';$/;"	I
+Person	docs/test-file/specs/type.spec.js.html	/^    function Person(name) {$/;"	f
+Person	docs/test-file/specs/validation.spec.js.html	/^      function Person(name) {$/;"	f
+Person	specs/type.spec.js	/^    class Person {}$/;"	C
+Person	specs/type.spec.js	/^    function Person(name) {$/;"	F
+PointedFunctor	dist/Fantasy-Land/pointed-functor.class.js	/^  function PointedFunctor(v) {$/;"	F
+PrdLib	specs/predicate.spec.js	/^import * as PrdLib from '..\/src\/Predicate';$/;"	I
+REG_EXP	src/Constants/types.js	/^export const REG_EXP = 'regexp';$/;"	E
+Right	dist/Fantasy-Land/either-functor.class.js	/^  function Right(v) {$/;"	F
+Right	dist/Fantasy-Land/either-functor.class.js	/^var Right = function () {$/;"	C
+Right	src/Fantasy-Land/either.js	/^export function Right(value) {$/;"	E
+STRING	src/Constants/types.js	/^export const STRING = 'string';$/;"	E
+SYMBOL	src/Constants/types.js	/^export const SYMBOL = 'symbol';$/;"	E
+StrLib	specs/string.spec.js	/^import * as StrLib from '..\/src\/String';$/;"	I
+TypeConstants	specs/type.spec.js	/^import * as TypeConstants from '..\/src\/Constants\/types';$/;"	I
+TypeConstants	src/Array/index.js	/^import * as TypeConstants from '..\/Constants\/types';$/;"	I
+TypeConstants	src/Type/index.js	/^import * as TypeConstants from '..\/Constants\/types';$/;"	I
+TypeLib	specs/type.spec.js	/^import * as TypeLib from '..\/src\/Type';$/;"	I
+UNDEFINED	src/Constants/types.js	/^export const UNDEFINED = 'undefined';$/;"	E
+_classCallCheck	dist/Fantasy-Land/applicative.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_classCallCheck	dist/Fantasy-Land/either-functor.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_classCallCheck	dist/Fantasy-Land/functor.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_classCallCheck	dist/Fantasy-Land/maybe-functor.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_classCallCheck	dist/Fantasy-Land/monad.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_classCallCheck	dist/Fantasy-Land/pointed-functor.class.js	/^function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }$/;"	F
+_interopRequireWildcard	dist/Function/index.js	/^function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }$/;"	F
+_interopRequireWildcard	dist/Predicate/index.js	/^function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }$/;"	F
+_interopRequireWildcard	dist/String/index.js	/^function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }$/;"	F
+_toConsumableArray	dist/Array/index.js	/^function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }$/;"	F
+_toConsumableArray	dist/Function/index.js	/^function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }$/;"	F
+a	specs/lens.spec.js	/^      a: [$/;"	P
+a	specs/math.spec.js	/^    var a = 0.1 + 0.2$/;"	V
+actualObjArr	specs/array.spec.js	/^    let actualObjArr = [{name: 'John', age: 21}, {name: 'Liza', age: 23}, {name: 'John', age: 23}]$/;"	A
+add	dist/Math/index.js	/^function add(augend) {$/;"	F
+add	specs/function-combinators.spec.js	/^    const add = x => y => x + y;$/;"	F
+add	specs/function.spec.js	/^    let add = (a, b, c) => a + b + c$/;"	F
+add	src/Math/index.js	/^export function add(augend, ...addendList) {$/;"	E
+add3Nums	docs/test-file/specs/function.spec.js.html	/^    function add3Nums(x, y, z) {$/;"	f
+add3Nums	specs/function.spec.js	/^    function add3Nums(x, y, z) {$/;"	F
+addWorld	specs/function-combinators.spec.js	/^    const addWorld = w => `${w} world`;$/;"	F
+adjust	docs/script/inner-link.js	/^  function adjust() {$/;"	F
+after	dist/Function/index.js	/^function after(count, fn) {$/;"	F
+after	src/Function/index.js	/^export function after(count, fn){$/;"	E
+age	specs/object.spec.js	/^        age: 29,$/;"	P
+alt	src/Function-Combinators/index.js	/^export function alt(fn1, fn2) {$/;"	E
+always	src/Function-Combinators/index.js	/^export function always(value) {$/;"	E
+and	dist/Predicate-Combinator/index.js	/^function and() {$/;"	F
+and	src/Predicate-Combinator/index.js	/^export function and(...predicates) {$/;"	E
+any	dist/Array/index.js	/^function any() {$/;"	F
+any	src/Array/index.js	/^export function any(source = [], fn) {$/;"	E
+ap	src/Fantasy-Land/index.js	/^const ap = (x, container) => v => container(x(v));$/;"	F
+apChain	src/Fantasy-Land/index.js	/^const apChain = (f, container) => v => container(f(v.join()));$/;"	F
+apGet	src/Fantasy-Land/index.js	/^const apGet = x => v => x(v);$/;"	F
+assoc	src/Lens/index.js	/^export function assoc(propName, valueToBeSet, source) {$/;"	E
+assocPath	src/Lens/index.js	/^export function assocPath(path, valueToBeSet, source) {$/;"	E
+buildResource	dist/String/index.js	/^function buildResource() {$/;"	F
+buildResource	src/String/index.js	/^export function buildResource(src = '', ...args) {$/;"	E
+calc	specs/function-combinators.spec.js	/^    const calc = FncLib.alt(FncLib.identity, x => x + 1);$/;"	F
+calc	specs/function-combinators.spec.js	/^    const calc = FncLib.fork(MthLib.multiply, x => x + x, FncLib.identity);$/;"	F
+camelCase	dist/String/index.js	/^function camelCase(str) {$/;"	F
+camelCase	src/String/index.js	/^export function camelCase(str) {$/;"	E
+castArray	dist/Array/index.js	/^function castArray() {$/;"	F
+castArray	src/Array/index.js	/^export function castArray(...valueToCast) {$/;"	E
+chai	specs/fantasy-land.spec.js	/^import * as chai from 'chai';$/;"	I
+chai	specs/type.spec.js	/^import * as chai from 'chai';$/;"	I
+chain	src/Fantasy-Land/index.js	/^const chain = x => f => f(x);$/;"	F
+changeOrder	dist/Array/index.js	/^function changeOrder(source, order) {$/;"	F
+changeOrder	src/Array/index.js	/^export function changeOrder(source, order) {$/;"	E
+cloneArray	dist/Array/index.js	/^function cloneArray(source) {$/;"	F
+cloneArray	src/Array/index.js	/^export function cloneArray(source) {$/;"	E
+cloneObject	dist/Object/index.js	/^function cloneObject(objectToClone) {$/;"	F
+cloneObject	src/Object/index.js	/^export function cloneObject(objectToClone) {$/;"	E
+compact	dist/Array/index.js	/^function compact(source) {$/;"	F
+compact	src/Array/index.js	/^export function compact(source) {$/;"	E
+compareDecimalNumbers	dist/Math/index.js	/^function compareDecimalNumbers(number1, number2) {$/;"	F
+compareDecimalNumbers	src/Math/index.js	/^export function compareDecimalNumbers(number1, number2) {$/;"	E
+comparePeopleFn	specs/fantasy-land.spec.js	/^      const comparePeopleFn = (p, p2) => p.id === p2.id;$/;"	F
+compose	dist/Function/index.js	/^function compose() {$/;"	F
+compose	src/Function/index.js	/^export function compose(...fns) {$/;"	E
+concat2Words	specs/function-combinators.spec.js	/^    const concat2Words = w1 => w2 => `${w1} ${w2}`;$/;"	F
+configurable	src/Fantasy-Land/setoid.js	/^      configurable: false$/;"	P
+conformsTo	src/Object/index.js	/^export function conformsTo(object, predicateSetModel) {$/;"	E
+construct	src/Fantasy-Land/index.js	/^const construct = (x, container, ...fns) => {$/;"	F
+constructor	specs/context.spec.js	/^      constructor() {$/;"	M
+constructor	src/Data-Structures/safe-tuple-builder.js	/^      constructor(...values) {$/;"	M
+constructor	src/Data-Structures/tuple.js	/^  constructor(...values) {$/;"	M
+constructor	src/Error/incorrect-args-type-error.js	/^  constructor() {$/;"	M
+contextObj	specs/context.spec.js	/^    let contextObj = new A()$/;"	V
+contextObj	specs/context.spec.js	/^    let contextObj = {counter: 0}$/;"	O
+cssClass	docs/script/manual.js	/^  var cssClass = '.navigation .manual-toc li[data-link="' + currentName + '"]';$/;"	V
+curry	dist/Function/index.js	/^function curry(fn) {$/;"	F
+curry	src/Function/index.js	/^export function curry(fn) {$/;"	E
+d	specs/lens.spec.js	/^      d: { r: [ 1, { b:2 } ] },$/;"	P
+data	specs/predicate-combinator.spec.js	/^    const data = ['Hello', 'World', 'Hello World', 'Not Greeting']$/;"	A
+data	specs/predicate-combinator.spec.js	/^    const data = [1,4,0,1,2,0]$/;"	A
+dataArray	specs/array.spec.js	/^    let dataArray = [0, -3, 'Hello', '', false, true, {}, [], null, undefined];$/;"	A
+deepClone	src/Object/index.js	/^export function deepClone(objectToDeepClone) {$/;"	E
+deepEquals	src/Object/index.js	/^export function deepEquals(first, second) {$/;"	E
+deepFreeze	dist/Object/index.js	/^function deepFreeze(obj) {$/;"	F
+deepFreeze	src/Object/index.js	/^export function deepFreeze(obj) {$/;"	E
+divide	dist/Math/index.js	/^function divide(dividend) {$/;"	F
+divide	src/Math/index.js	/^export function divide(dividend, ...divisorList) {$/;"	E
+dollarAccount	specs/function.spec.js	/^    let dollarAccount = 0$/;"	V
+duplication	src/Function-Combinators/index.js	/^export function duplication(fn) {$/;"	E
+enumerable	dist/index.js	/^    enumerable: true,$/;"	P
+enumerable	src/Fantasy-Land/setoid.js	/^      enumerable: false,$/;"	P
+eq	src/Predicate/index.js	/^export function eq(elem1) {$/;"	E
+equalsIgnoreCase	dist/String/index.js	/^function equalsIgnoreCase(str1, str2) {$/;"	F
+equalsIgnoreCase	src/String/index.js	/^export function equalsIgnoreCase(str1, str2) {$/;"	E
+every	dist/Array/index.js	/^function every() {$/;"	F
+every	src/Array/index.js	/^export function every(source = [], fn) {$/;"	E
+expected	specs/data-structures.spec.js	/^      const expected = ['Barkley', 'Rosser']$/;"	A
+expected	specs/data-structures.spec.js	/^    const expected = ['Barkley', 'Rosser']$/;"	A
+expected	specs/fantasy-land.spec.js	/^      const expected = 3000;$/;"	V
+expected	specs/lens.spec.js	/^    let expected = { name: { first: 'Oleh' } };$/;"	O
+fill	dist/Array/index.js	/^function fill(value, number) {$/;"	F
+fill	src/Array/index.js	/^export function fill(source, number) {$/;"	E
+fillLeft	dist/Array/index.js	/^function fillLeft(value, number) {$/;"	F
+fillLeft	src/Array/index.js	/^export function fillLeft(value, number, source = []) {$/;"	E
+fillRight	dist/Array/index.js	/^function fillRight(value, number) {$/;"	F
+fillRight	src/Array/index.js	/^export function fillRight(value, number, source = []) {$/;"	E
+filter	dist/Array/index.js	/^function filter() {$/;"	F
+filter	src/Array/index.js	/^export function filter(source = [], fn) {$/;"	E
+find	dist/Array/index.js	/^function find() {$/;"	F
+find	src/Array/index.js	/^export function find(source = [], fn) {$/;"	E
+first	dist/Array/index.js	/^function first() {$/;"	F
+first	src/Array/index.js	/^export function first(source = []) {$/;"	E
+flatten	dist/Array/index.js	/^function flatten(source) {$/;"	F
+flatten	src/Array/index.js	/^export function flatten(source) {$/;"	E
+flip	src/Function-Combinators/index.js	/^export function flip(fn) {$/;"	E
+fold	src/Fantasy-Land/index.js	/^const fold = x => f => f(x);$/;"	F
+for	docs/script/prettify/prettify.js	/^for(var c=[m],p=0;p<c.length;++p)b(c[p]);d===(d|0)&&c[0].setAttribute("value",d);var w=l.createElement("ol");w.className="linenums";d=Math.max(0,d-1|0)||0;for(var p=0,r=c.length;p<r;++p)m=c[p],m.className="L"+(p+d)%10,m.firstChild||m.appendChild(l.createTextNode("\\u00a0")),w.appendChild(m);a.appendChild(w)}function t(a,d){for(var f=d.length;0<=--f;){var b=d[f];I.hasOwnProperty(b)?E.console&&console.warn("cannot override language handler %s",b):I[b]=a}}function K(a,d){a&&I.hasOwnProperty(a)||(a=\/^\\s*<\/.test(d)?$/;"	M
+fork	src/Function-Combinators/index.js	/^export function fork(join, fn1, fn2) {$/;"	E
+function	specs/function.spec.js	/^        function(x, y, z) {$/;"	M
+get	dist/Object/index.js	/^function get(obj) {$/;"	F
+get	src/Data-Structures/safe-tuple-builder.js	/^      get(index) {$/;"	M
+get	src/Data-Structures/tuple.js	/^  get(index) {$/;"	M
+get	src/Fantasy-Land/either.js	/^    get: () => value,$/;"	M
+get	src/Fantasy-Land/either.js	/^    get: () => { throw new TypeError("Can't extract the value of a Left.") },$/;"	M
+get	src/Fantasy-Land/index.js	/^const get = (x) => () => x;$/;"	F
+get	src/Fantasy-Land/maybe.js	/^    get: () => value,$/;"	M
+get	src/Fantasy-Land/maybe.js	/^    get: () => { throw new TypeError("Can't extract the value of a Nothing.") },$/;"	M
+getAll	src/Data-Structures/safe-tuple-builder.js	/^      getAll() {$/;"	M
+getAll	src/Data-Structures/tuple.js	/^  getAll() {$/;"	M
+getFirstLowerLetter	dist/String/index.js	/^function getFirstLowerLetter(source) {$/;"	F
+getFirstLowerLetter	src/String/index.js	/^export function getFirstLowerLetter(source) {$/;"	E
+getFirstUpperLetter	dist/String/index.js	/^function getFirstUpperLetter(source) {$/;"	F
+getFirstUpperLetter	src/String/index.js	/^export function getFirstUpperLetter(source) {$/;"	E
+getLastLowerLetter	dist/String/index.js	/^function getLastLowerLetter(source) {$/;"	F
+getLastLowerLetter	src/String/index.js	/^export function getLastLowerLetter(source) {$/;"	E
+getLastUpperLetter	dist/String/index.js	/^function getLastUpperLetter(source) {$/;"	F
+getLastUpperLetter	src/String/index.js	/^export function getLastUpperLetter(source) {$/;"	E
+getOrElse	src/Fantasy-Land/maybe.js	/^    getOrElse: (elseValue) => elseValue,$/;"	M
+getRandomInt	dist/Math/index.js	/^function getRandomInt(max) {$/;"	F
+getRandomInt	src/Math/index.js	/^export function getRandomInt(max) {$/;"	E
+getRandomIntFromTo	dist/Math/index.js	/^function getRandomIntFromTo(min, max) {$/;"	F
+getRandomIntFromTo	src/Math/index.js	/^export function getRandomIntFromTo(min, max) {$/;"	E
+getType	dist/Validation/index.js	/^function getType(valToCheck) {$/;"	F
+getType	src/Type/index.js	/^export function getType(valToCheck) {$/;"	E
+getTypeByClass	src/Type/index.js	/^export function getTypeByClass(clazz) {$/;"	E
+getValue	src/Fantasy-Land/either.js	/^    getValue: () => value,$/;"	M
+getValue	src/Fantasy-Land/maybe.js	/^    getValue: () => value,$/;"	M
+getWithCtx	dist/Object/index.js	/^function getWithCtx(obj) {$/;"	F
+getWithCtx	src/Object/index.js	/^export function getWithCtx(obj) {$/;"	E
+getWithProps	dist/Object/index.js	/^function getWithProps() {$/;"	F
+getWithProps	src/Object/index.js	/^export function getWithProps(...props) {$/;"	E
+given	specs/array.spec.js	/^    let given = [$/;"	A
+given	specs/object.spec.js	/^      let given = { b: 1, a: 'Hello' }$/;"	O
+greaterThan	dist/Predicate/index.js	/^function greaterThan(number1) {$/;"	F
+greaterThanIncluding	dist/Predicate/index.js	/^function greaterThanIncluding(number1) {$/;"	F
+greet	specs/function.spec.js	/^    const greet = (greeting, name) => `${greeting} ${name}`$/;"	F
+groupBy	src/Array/index.js	/^export function groupBy(...args) {$/;"	E
+groupByFn	src/Array/index.js	/^export function groupByFn(source, groupFn) {$/;"	E
+groupByPath	src/Array/index.js	/^export function groupByPath(source, groupPath) {$/;"	E
+groupByProp	src/Array/index.js	/^export function groupByProp(source, groupVal) {$/;"	E
+gt	src/Predicate/index.js	/^export function gt(number1) {$/;"	E
+gte	src/Predicate/index.js	/^export function gte(number1) {$/;"	E
+head	dist/Array/index.js	/^function head() {$/;"	F
+head	src/Array/index.js	/^export function head(source = []) {$/;"	E
+html	docs/script/search.js	/^    var html = {class: [], method: [], member: [], function: [], variable: [], typedef: [], external: [], file: [], test: [], testFile: []};$/;"	O
+http	docs/script/prettify/prettify.js	/^      http:\/\/www.apache.org\/licenses\/LICENSE-2.0$/;"	P
+id	docs/script/pretty-print.js	/^      var id = '#lineNumber' + lines[i];$/;"	V
+id	specs/fantasy-land.spec.js	/^        id: 2,$/;"	P
+identity	src/Function-Combinators/index.js	/^export function identity(value) {$/;"	E
+if	src/Array/index.js	/^  if(valueArr.every(isString) || valueArr.every(isNumber)) {$/;"	M
+if	src/Function/index.js	/^    if(args.length < fn.length) {$/;"	M
+if	src/Lens/index.js	/^    if(chunkToCurrentProp.length === path.length) {$/;"	M
+inRangeOf	dist/Predicate/index.js	/^function inRangeOf(number1, number2) {$/;"	F
+inRangeOfIncluding	dist/Predicate/index.js	/^function inRangeOfIncluding(number1, number2) {$/;"	F
+inc	specs/array.spec.js	/^    let inc = 0;$/;"	V
+includes	dist/String/index.js	/^function includes(source, includement) {$/;"	F
+includes	src/String/index.js	/^export function includes(source, includement) {$/;"	E
+innerHTML	docs/script/search.js	/^    var innerHTML = '';$/;"	V
+inspect	src/Data-Structures/safe-tuple-builder.js	/^      inspect() {$/;"	M
+inspect	src/Data-Structures/tuple.js	/^  inspect() {$/;"	M
+inspect	src/Fantasy-Land/either.js	/^    inspect: () => `Either.Left(${value})`,$/;"	M
+inspect	src/Fantasy-Land/either.js	/^    inspect: () => `Either.Right(${value})`,$/;"	M
+inspect	src/Fantasy-Land/index.js	/^const inspect = (x, container) => () => `${container.name}(${x})`;$/;"	F
+inspect	src/Fantasy-Land/maybe.js	/^    inspect: () => `Maybe.Just(${value})`,$/;"	M
+inspect	src/Fantasy-Land/maybe.js	/^    inspect: () => `Maybe.Nothing()`,$/;"	M
+internal	specs/object.spec.js	/^        internal: {$/;"	P
+invoke	dist/Context/index.js	/^function invoke() {$/;"	F
+invoke	src/Context/index.js	/^    invoke: function(...fns) {$/;"	M
+invoke	src/Context/index.js	/^export function invoke(...fns) {$/;"	E
+invokeCounter	specs/function.spec.js	/^    let invokeCounter = 0$/;"	V
+invokeWithCtx	dist/Context/index.js	/^function invokeWithCtx(ctx) {$/;"	F
+invokeWithCtx	src/Context/index.js	/^export function invokeWithCtx(ctx, ...fns) {$/;"	E
+isArray	dist/Validation/index.js	/^function isArray(valToCheck) {$/;"	F
+isArray	src/Type/index.js	/^export function isArray(valToCheck) {$/;"	E
+isBoolean	dist/Validation/index.js	/^function isBoolean(valToCheck) {$/;"	F
+isBoolean	src/Type/index.js	/^export function isBoolean(valToCheck) {$/;"	E
+isDate	dist/Validation/index.js	/^function isDate(valToCheck) {$/;"	F
+isDate	src/Type/index.js	/^export function isDate(valToCheck) {$/;"	E
+isFunction	dist/Validation/index.js	/^function isFunction(valToCheck) {$/;"	F
+isFunction	src/Type/index.js	/^export function isFunction(valToCheck) {$/;"	E
+isGreeting	specs/predicate-combinator.spec.js	/^    const isGreeting = str => str.indexOf('Hello') > -1$/;"	F
+isJust	src/Fantasy-Land/maybe.js	/^    isJust: false$/;"	P
+isJust	src/Fantasy-Land/maybe.js	/^    isJust: true$/;"	P
+isLeft	src/Fantasy-Land/either.js	/^    isLeft: false,$/;"	P
+isLeft	src/Fantasy-Land/either.js	/^    isLeft: true,$/;"	P
+isNaN	dist/Validation/index.js	/^function isNaN(valToCheck) {$/;"	F
+isNaN	src/Type/index.js	/^export function isNaN(valToCheck) {$/;"	E
+isNegativeZero	dist/Validation/index.js	/^function isNegativeZero(numberToCheck) {$/;"	F
+isNegativeZero	src/Type/index.js	/^export function isNegativeZero(numberToCheck) {$/;"	E
+isNotArray	src/Type/index.js	/^export function isNotArray(valToCheck) {$/;"	E
+isNotBoolean	src/Type/index.js	/^export function isNotBoolean(valToCheck) {$/;"	E
+isNotDate	src/Type/index.js	/^export function isNotDate(valToCheck) {$/;"	E
+isNotFunction	src/Type/index.js	/^export function isNotFunction(valToCheck) {$/;"	E
+isNotNaN	src/Type/index.js	/^export function isNotNaN(valToCheck) {$/;"	E
+isNotNegativeZero	src/Type/index.js	/^export function isNotNegativeZero(numberToCheck) {$/;"	E
+isNotNull	src/Type/index.js	/^export function isNotNull(valToCheck) {$/;"	E
+isNotNumber	src/Type/index.js	/^export function isNotNumber(valToCheck) {$/;"	E
+isNotObject	src/Type/index.js	/^export function isNotObject(valToCheck) {$/;"	E
+isNotPrimitive	src/Type/index.js	/^export function isNotPrimitive(value) {$/;"	E
+isNotRegExp	src/Type/index.js	/^export function isNotRegExp(valToCheck) {$/;"	E
+isNotString	src/Type/index.js	/^export function isNotString(valToCheck) {$/;"	E
+isNotSymbol	src/Type/index.js	/^export function isNotSymbol(valToCheck) {$/;"	E
+isNotUndefined	src/Type/index.js	/^export function isNotUndefined(valToCheck) {$/;"	E
+isNothing	src/Fantasy-Land/maybe.js	/^    isNothing: false,$/;"	P
+isNothing	src/Fantasy-Land/maybe.js	/^    isNothing: true,$/;"	P
+isNull	dist/Validation/index.js	/^function isNull(valToCheck) {$/;"	F
+isNull	src/Type/index.js	/^export function isNull(valToCheck) {$/;"	E
+isNumber	dist/Validation/index.js	/^function isNumber(valToCheck) {$/;"	F
+isNumber	src/Type/index.js	/^export function isNumber(valToCheck) {$/;"	E
+isObject	dist/Validation/index.js	/^function isObject(valToCheck) {$/;"	F
+isObject	src/Type/index.js	/^export function isObject(valToCheck) {$/;"	E
+isPrimitive	src/Type/index.js	/^export function isPrimitive(value) {$/;"	E
+isRegExp	dist/Validation/index.js	/^function isRegExp(valToCheck) {$/;"	F
+isRegExp	src/Type/index.js	/^export function isRegExp(valToCheck) {$/;"	E
+isRight	src/Fantasy-Land/either.js	/^    isRight: false$/;"	P
+isRight	src/Fantasy-Land/either.js	/^    isRight: true$/;"	P
+isSetoid	src/Fantasy-Land/setoid.js	/^export function isSetoid(obj) {$/;"	E
+isString	dist/Validation/index.js	/^function isString(valToCheck) {$/;"	F
+isString	src/Type/index.js	/^export function isString(valToCheck) {$/;"	E
+isSymbol	dist/Validation/index.js	/^function isSymbol(valToCheck) {$/;"	F
+isSymbol	src/Type/index.js	/^export function isSymbol(valToCheck) {$/;"	E
+isUndefined	dist/Validation/index.js	/^function isUndefined(valToCheck) {$/;"	F
+isUndefined	src/Type/index.js	/^export function isUndefined(valToCheck) {$/;"	E
+items	specs/array.spec.js	/^    let items = [$/;"	A
+join	src/Fantasy-Land/index.js	/^const join = x => () => x;$/;"	F
+kebabCase	dist/String/index.js	/^function kebabCase(str) {$/;"	F
+kebabCase	src/String/index.js	/^export function kebabCase(str) {$/;"	E
+key	dist/Fantasy-Land/applicative.class.js	/^    key: "ap",$/;"	P
+key	dist/Fantasy-Land/applicative.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/applicative.class.js	/^    key: "of",$/;"	P
+key	dist/Fantasy-Land/either-functor.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/either-functor.class.js	/^    key: "of",$/;"	P
+key	dist/Fantasy-Land/functor.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/maybe-functor.class.js	/^    key: "isNothing",$/;"	P
+key	dist/Fantasy-Land/maybe-functor.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/maybe-functor.class.js	/^    key: "of",$/;"	P
+key	dist/Fantasy-Land/monad.class.js	/^    key: "ap",$/;"	P
+key	dist/Fantasy-Land/monad.class.js	/^    key: "chain",$/;"	P
+key	dist/Fantasy-Land/monad.class.js	/^    key: "join",$/;"	P
+key	dist/Fantasy-Land/monad.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/monad.class.js	/^    key: "of",$/;"	P
+key	dist/Fantasy-Land/pointed-functor.class.js	/^    key: "map",$/;"	P
+key	dist/Fantasy-Land/pointed-functor.class.js	/^    key: "of",$/;"	P
+last	dist/Array/index.js	/^function last() {$/;"	F
+last	src/Array/index.js	/^export function last(source = []) {$/;"	E
+lazyFold	src/Fantasy-Land/index.js	/^const lazyFold = g => f => f(g());$/;"	F
+lazyMap	src/Fantasy-Land/index.js	/^const lazyMap = (g, container) => f => container(() => f(g()));$/;"	F
+lensIndex	src/Lens/index.js	/^export function lensIndex(index, source) {$/;"	E
+lensProp	src/Lens/index.js	/^export function lensProp(propName) {$/;"	E
+lessThan	dist/Predicate/index.js	/^function lessThan(number1) {$/;"	F
+lessThanIncluding	dist/Predicate/index.js	/^function lessThanIncluding(number1) {$/;"	F
+lookupTable	dist/Function/index.js	/^  var lookupTable = {};$/;"	O
+lookupTable	src/Function/index.js	/^  let lookupTable = {};$/;"	O
+lt	src/Predicate/index.js	/^export function lt(number1) {$/;"	E
+lte	src/Predicate/index.js	/^export function lte(number1) {$/;"	E
+map	dist/Array/index.js	/^function map() {$/;"	F
+map	src/Array/index.js	/^export function map(source, fn) {$/;"	E
+map	src/Fantasy-Land/index.js	/^const map = (x, container) => f => container(f(x));$/;"	F
+memoize	dist/Function/index.js	/^function memoize(fn) {$/;"	F
+memoize	src/Function/index.js	/^export function memoize(fn) {$/;"	E
+multiply	dist/Math/index.js	/^function multiply(multiplier) {$/;"	F
+multiply	src/Math/index.js	/^export function multiply(multiplier, ...multiplicandList) {$/;"	E
+multiplyWithInvokeUpdate	specs/fantasy-land.spec.js	/^    let multiplyWithInvokeUpdate = x => {$/;"	F
+names	specs/lens.spec.js	/^    let names = ['Oleh', 'John'];$/;"	A
+names	specs/lens.spec.js	/^    let names = [expected];$/;"	A
+negative	specs/predicate-combinator.spec.js	/^    const negative = number => number < 0$/;"	F
+not	dist/Predicate-Combinator/index.js	/^function not() {$/;"	F
+not	src/Predicate-Combinator/index.js	/^export function not(...predicates) {$/;"	E
+notEq	src/Predicate/index.js	/^export function notEq(elem1) {$/;"	E
+notOr	src/Predicate-Combinator/index.js	/^export function notOr(...predicates) {$/;"	E
+notToBe	src/Type/index.js	/^export function notToBe(expectation) {$/;"	E
+nth	src/Array/index.js	/^export function nth(source, index) {$/;"	E
+numAndStrComparator	src/Array/index.js	/^export function numAndStrComparator(first, second, prop) {$/;"	E
+numberArray	specs/array.spec.js	/^    let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]$/;"	A
+numberArray	specs/array.spec.js	/^    let numberArray = [1,2,3]$/;"	A
+numberArray	specs/array.spec.js	/^    let numberArray = [1,2,3];$/;"	A
+numberArray	specs/array.spec.js	/^    let numberArray = [1,[2,[3,[4],5],6],7];$/;"	A
+obj	specs/object.spec.js	/^      let obj = { a: { b: { c: [ { name: 'Oleh' } ] } } };$/;"	O
+obj	specs/object.spec.js	/^      let obj = {$/;"	O
+obj	specs/object.spec.js	/^      let obj = {}$/;"	O
+objectProjection	src/Object/index.js	/^export function objectProjection(obj, cb, skipCb = (...args) => args) {$/;"	E
+of	src/Data-Structures/safe-tuple-builder.js	/^  static of(...types) {$/;"	M
+omit	dist/Object/index.js	/^function omit(source) {$/;"	F
+omit	src/Object/index.js	/^export function omit(source, ...omitArray) {$/;"	E
+once	dist/Function/index.js	/^function once(fn) {$/;"	F
+once	src/Function/index.js	/^export function once(fn) {$/;"	E
+or	dist/Predicate-Combinator/index.js	/^function or() {$/;"	F
+or	src/Predicate-Combinator/index.js	/^export function or(...predicates) {$/;"	E
+orCurry	src/Function/index.js	/^export function orCurry(fn, args) {$/;"	E
+partial	dist/Function/index.js	/^function partial(fn) {$/;"	F
+partial	src/Function/index.js	/^export function partial(fn, ...partialArgs) {$/;"	E
+path	src/Lens/index.js	/^export function path(p, source) {$/;"	E
+pathEq	src/Lens/index.js	/^export function pathEq(path, source, value) {$/;"	E
+pathOr	src/Lens/index.js	/^export function pathOr(path, source, orValue) {$/;"	E
+pathSatisfies	src/Lens/index.js	/^export function pathSatisfies(path, source, satisfyFn) {$/;"	E
+person	specs/type.spec.js	/^    var person = new Person('Oleh');$/;"	V
+person1	specs/fantasy-land.spec.js	/^      const person1 = { id: 1, name: 'Oleh' }$/;"	O
+person1	specs/fantasy-land.spec.js	/^      const person1 = { id: 1, name: 'Oleh' };$/;"	O
+person2	specs/fantasy-land.spec.js	/^      const person2 = { id: 1, name: 'Oleh' };$/;"	O
+person2	specs/fantasy-land.spec.js	/^      const person2 = { id: 2, name: 'Oleh' }$/;"	O
+person2	specs/fantasy-land.spec.js	/^      const person2 = {$/;"	O
+pick	dist/Object/index.js	/^function pick(source) {$/;"	F
+pick	src/Object/index.js	/^export function pick(source, ...pickArray) {$/;"	E
+pipe	dist/Function/index.js	/^function pipe() {$/;"	F
+pipe	src/Function/index.js	/^export function pipe(...fns) {$/;"	E
+pluck	dist/Array/index.js	/^function pluck() {$/;"	F
+pluck	src/Array/index.js	/^export function pluck(source = [], propName) {$/;"	E
+prop	src/Lens/index.js	/^export function prop(propName, source) {$/;"	E
+range	src/Predicate/index.js	/^export function range(number1, number2) {$/;"	E
+rangeEqual	src/Predicate/index.js	/^export function rangeEqual(number1, number2) {$/;"	E
+rearg	dist/Function/index.js	/^function rearg(fn, order) {$/;"	F
+rearg	src/Function/index.js	/^export function rearg(fn, order) {$/;"	E
+rearged	specs/function.spec.js	/^    let rearged = FnLib.rearg((a, b, c) => {$/;"	F
+reject	dist/Array/index.js	/^function reject(source, fn) {$/;"	F
+reject	src/Array/index.js	/^export function reject(source, fn) {$/;"	E
+replaceAll	dist/String/index.js	/^function replaceAll(replaceable, from, to) {$/;"	F
+replaceAll	src/String/index.js	/^export function replaceAll(replaceable, from, to) {$/;"	E
+replaceAllDifferences	dist/String/index.js	/^function replaceAllDifferences(replaceable, fromList, to) {$/;"	F
+replaceAllDifferences	src/String/index.js	/^export function replaceAllDifferences(replaceable, fromList, to) {$/;"	E
+result	dist/Array/index.js	/^  var result = [],$/;"	A
+result	specs/function-combinators.spec.js	/^    let result = 0$/;"	V
+result	src/Array/index.js	/^  let result = []$/;"	A
+runCount	dist/Function/index.js	/^  var runCount = 0;$/;"	V
+runCount	src/Function/index.js	/^  let runCount = 0;$/;"	V
+safeGet	src/Object/index.js	/^export function safeGet(obj, ...props) {$/;"	E
+safeGetOr	src/Object/index.js	/^export function safeGetOr(obj, orValue, ...props) {$/;"	E
+sample	dist/Array/index.js	/^function sample(source) {$/;"	F
+sample	src/Array/index.js	/^export function sample(source) {$/;"	E
+sayHelloTo	specs/function-combinators.spec.js	/^    let sayHelloTo = name => `Hello ${name}`$/;"	F
+sayHelloTo	specs/function.spec.js	/^    const sayHelloTo = name => `Hello ${name}`$/;"	F
+sayHelloTo	specs/function.spec.js	/^    let sayHelloTo = name => `Hello ${name}`$/;"	F
+seq	src/Function-Combinators/index.js	/^export function seq(...fns) {$/;"	E
+shuffle	dist/Array/index.js	/^function shuffle(source) {$/;"	F
+shuffle	src/Array/index.js	/^export function shuffle(source) {$/;"	E
+sideEffectVar	specs/fantasy-land.spec.js	/^    let sideEffectVar = 0$/;"	V
+sizeArray	src/Array/index.js	/^  let sizeArray = source.map(arrayItem => arrayItem.length)$/;"	F
+snakeCase	dist/String/index.js	/^function snakeCase(str) {$/;"	F
+snakeCase	src/String/index.js	/^export function snakeCase(str) {$/;"	E
+some	dist/Array/index.js	/^function some() {$/;"	F
+some	src/Array/index.js	/^export function some(source = [], fn) {$/;"	E
+sortBy	src/Array/index.js	/^export function sortBy(source, propList) {$/;"	E
+subtract	dist/Math/index.js	/^function subtract(minuend) {$/;"	F
+subtract	src/Math/index.js	/^export function subtract(minuend, ...subtrahendList) {$/;"	E
+tail	src/Array/index.js	/^export function tail(source) {$/;"	E
+take	dist/Array/index.js	/^function take(source) {$/;"	F
+take	src/Array/index.js	/^export function take(source, sourceLength = 1) {$/;"	E
+takeRight	dist/Array/index.js	/^function takeRight(source) {$/;"	F
+takeRight	src/Array/index.js	/^export function takeRight(source, numberOfLastElements = 1) {$/;"	E
+takeRightWhile	dist/Array/index.js	/^function takeRightWhile() {$/;"	F
+takeRightWhile	src/Array/index.js	/^export function takeRightWhile(source = [], rightWhileFn) {$/;"	E
+takeWhile	dist/Array/index.js	/^function takeWhile() {$/;"	F
+takeWhile	src/Array/index.js	/^export function takeWhile(source = [], whileFn) {$/;"	E
+tap	dist/Function/index.js	/^function tap(fn) {$/;"	F
+tap	src/Fantasy-Land/index.js	/^const tap = (x, container) => f => {$/;"	F
+tap	src/Function-Combinators/index.js	/^export function tap(fn) {$/;"	E
+throwIncorrectArgsTypeErrorIfSomeOf	src/Error/index.js	/^export function throwIncorrectArgsTypeErrorIfSomeOf(...conditions) {$/;"	E
+thrush	src/Function-Combinators/index.js	/^export function thrush(x) {$/;"	E
+times	dist/Array/index.js	/^function times(iterationNumber, fn) {$/;"	F
+times	src/Array/index.js	/^export function times(iterationNumber, fn) {$/;"	E
+toBe	dist/Validation/index.js	/^function toBe(expectation) {$/;"	F
+toBe	src/Type/index.js	/^export function toBe(expectation) {$/;"	E
+toSetoid	src/Fantasy-Land/setoid.js	/^export function toSetoid(eqFn) {$/;"	E
+toString	src/Data-Structures/safe-tuple-builder.js	/^      toString() {$/;"	M
+toString	src/Data-Structures/tuple.js	/^  toString() {$/;"	M
+toString	src/Error/incorrect-args-type-error.js	/^  toString() {$/;"	M
+toString	src/Fantasy-Land/either.js	/^    toString: () => `Either.Left(${value})`,$/;"	M
+toString	src/Fantasy-Land/either.js	/^    toString: () => `Either.Right(${value})`,$/;"	M
+toString	src/Fantasy-Land/index.js	/^const toString = (x, container) => () => `${container.name}(${x})`;$/;"	F
+toString	src/Fantasy-Land/maybe.js	/^    toString: () => `Maybe.Just(${value})`,$/;"	M
+toString	src/Fantasy-Land/maybe.js	/^    toString: () => `Maybe.Nothing()`,$/;"	M
+toggle	docs/script/inherited-summary.js	/^  function toggle(ev) {$/;"	F
+toggle	docs/script/test-summary.js	/^  function toggle(ev) {$/;"	F
+trim	dist/String/index.js	/^function trim(stringSource) {$/;"	F
+trim	src/String/index.js	/^export function trim(stringSource) {$/;"	E
+typeCheck	src/Type/index.js	/^export function typeCheck(clazz, actualType) {$/;"	E
+unary	dist/Function/index.js	/^function unary(fn) {$/;"	F
+unary	src/Function/index.js	/^export function unary(fn) {$/;"	E
+uniq	src/Array/index.js	/^export function uniq(source) {$/;"	E
+unpack	src/Data-Structures/safe-tuple-builder.js	/^      unpack(cb) {$/;"	M
+unpack	src/Data-Structures/tuple.js	/^  unpack(cb) {$/;"	M
+upperFirst	dist/String/index.js	/^function upperFirst() {$/;"	F
+upperFirst	src/String/index.js	/^export function upperFirst(str = '') {$/;"	E
+user	specs/array.spec.js	/^    let user = {name: 'John'}$/;"	O
+user	specs/array.spec.js	/^    let user = {name: 'Oleh'};$/;"	O
+user	specs/lens.spec.js	/^    let user = [{name: 'John'}, {name: 'Jimi'}]$/;"	A
+user	specs/lens.spec.js	/^    let user = { name: 'John' }$/;"	O
+user	specs/lens.spec.js	/^    let user = { name: 'John', address: { email: 'some@email.com' }}$/;"	O
+user	specs/lens.spec.js	/^    let user = { name: 'John', address: { email: 'some@email.com' }};$/;"	O
+user	specs/lens.spec.js	/^    let user = { name: 'Oleh' };$/;"	O
+user	specs/lens.spec.js	/^    let user = { name: { first: 'John' } }$/;"	O
+user	specs/lens.spec.js	/^    let user = { name: { first: 'Oleh' } };$/;"	O
+user	specs/lens.spec.js	/^    let user = {$/;"	O
+user	specs/lens.spec.js	/^    let user = {name: 'Oleh'}$/;"	O
+user	specs/object.spec.js	/^      let user = {$/;"	O
+user1	specs/lens.spec.js	/^    let user1 = { name: 'John' }$/;"	O
+user1	specs/object.spec.js	/^      let user1 = {name: 'Oleh', address: {zip: 123}}$/;"	O
+user1	specs/object.spec.js	/^      let user1 = {name: 'Oleh', address: {zip: 123}};$/;"	O
+users	specs/array.spec.js	/^    let users = [{name: 'Andriy', age: 23, isMerried: true}, {name: 'Ihor', age: 21, isMerried: false}];$/;"	A
+users	specs/array.spec.js	/^    let users = [{name: 'John'}, {name: 'John'}]$/;"	A
+users	specs/array.spec.js	/^    let users = [{name: 'John'}, {name: 'Liza'}];$/;"	A
+users	specs/array.spec.js	/^    let users = [{name: 'Liza'}, {name: 'John'}];$/;"	A
+users	specs/array.spec.js	/^    let users = [{name: 'name1'}, {name: 'name2'}, {name: 'name3'}, {name: 'name4'}, {name: 'name5'},$/;"	A
+using	dist/Context/index.js	/^function using(ctx) {$/;"	F
+using	src/Context/index.js	/^export function using(ctx) {$/;"	E
+value	dist/Array/index.js	/^  value: true$/;"	P
+value	dist/Context/index.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/applicative.class.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/either-functor.class.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/functor.class.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/maybe-functor.class.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/monad.class.js	/^  value: true$/;"	P
+value	dist/Fantasy-Land/pointed-functor.class.js	/^  value: true$/;"	P
+value	dist/Function/index.js	/^  value: true$/;"	P
+value	dist/Math/index.js	/^  value: true$/;"	P
+value	dist/Object/index.js	/^  value: true$/;"	P
+value	dist/Predicate-Combinator/index.js	/^  value: true$/;"	P
+value	dist/Predicate/index.js	/^  value: true$/;"	P
+value	dist/String/index.js	/^  value: true$/;"	P
+value	dist/Validation/index.js	/^  value: true$/;"	P
+value	dist/index.js	/^  value: true$/;"	P
+valueArr	src/Array/index.js	/^  let valueArr = [first[prop], second[prop]];$/;"	A
+while	docs/script/inherited-summary.js	/^    while(parent) {$/;"	M
+while	docs/script/test-summary.js	/^    while(parent) {$/;"	M
+without	dist/Array/index.js	/^function without(source, matchItem) {$/;"	F
+without	src/Array/index.js	/^export function without(source, matchItem) {$/;"	E
+words	dist/String/index.js	/^function words(strValue) {$/;"	F
+words	src/String/index.js	/^export function words(strValue) {$/;"	E
+wrap	dist/Context/index.js	/^function wrap(fn) {$/;"	F
+wrap	src/Context/index.js	/^export function wrap(fn, ...args) {$/;"	E
+writable	src/Fantasy-Land/setoid.js	/^      writable: false,$/;"	P
+zip	dist/Array/index.js	/^function zip() {$/;"	F
+zip	src/Array/index.js	/^export function zip(...source) {$/;"	E
+zipWithProjection	dist/Array/index.js	/^function zipWithProjection() {$/;"	F
+zipWithProjection	src/Array/index.js	/^export function zipWithProjection() {$/;"	E

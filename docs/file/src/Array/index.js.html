@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/Array/index.js | js-helpers</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#array">Array</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-any">any</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-castArray">castArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changeOrder">changeOrder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneArray">cloneArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compact">compact</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fill">fill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillLeft">fillLeft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillRight">fillRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-first">first</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flatten">flatten</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupBy">groupBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByFn">groupByFn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByPath">groupByPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByProp">groupByProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-head">head</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-last">last</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nth">nth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-numAndStrComparator">numAndStrComparator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pluck">pluck</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reject">reject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sample">sample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-shuffle">shuffle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sortBy">sortBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tail">tail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-take">take</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRight">takeRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRightWhile">takeRightWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeWhile">takeWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-times">times</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uniq">uniq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-without">without</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zip">zip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zipWithProjection">zipWithProjection</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">Constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EMPTY">EMPTY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ARRAY">ARRAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BOOLEAN">BOOLEAN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DATE">DATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FUNCTION">FUNCTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NULL">NULL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NUMBER">NUMBER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-OBJECT">OBJECT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-REG_EXP">REG_EXP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STRING">STRING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SYMBOL">SYMBOL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UNDEFINED">UNDEFINED</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">Context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invoke">invoke</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invokeWithCtx">invokeWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-using">using</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-wrap">wrap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#data-structures">Data-Structures</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/safe-tuple-builder.js~SafeTupleBuilder.html">SafeTupleBuilder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html">Tuple</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#error">Error</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Error/incorrect-args-type-error.js~IncorrectArgsTypeError.html">IncorrectArgsTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-throwIncorrectArgsTypeErrorIfSomeOf">throwIncorrectArgsTypeErrorIfSomeOf</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fantasy-land">Fantasy-Land</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Either">Either</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Left">Left</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Right">Right</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Applicative">Applicative</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Apply">Apply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Functor">Functor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LazyFunctor">LazyFunctor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Monad">Monad</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Just">Just</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Maybe">Maybe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Nothing">Nothing</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSetoid">isSetoid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toSetoid">toSetoid</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function">Function</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-after">after</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compose">compose</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-curry">curry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-memoize">memoize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-once">once</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-orCurry">orCurry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partial">partial</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pipe">pipe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rearg">rearg</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unary">unary</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function-combinators">Function-Combinators</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-alt">alt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-always">always</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-duplication">duplication</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flip">flip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fork">fork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-identity">identity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-seq">seq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tap">tap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-thrush">thrush</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lens">Lens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assoc">assoc</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assocPath">assocPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensIndex">lensIndex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensProp">lensProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathEq">pathEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathOr">pathOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathSatisfies">pathSatisfies</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-prop">prop</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#math">Math</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compareDecimalNumbers">compareDecimalNumbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-divide">divide</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomInt">getRandomInt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomIntFromTo">getRandomIntFromTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-multiply">multiply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-subtract">subtract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#object">Object</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneObject">cloneObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-conformsTo">conformsTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepClone">deepClone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepEquals">deepEquals</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepFreeze">deepFreeze</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithCtx">getWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithProps">getWithProps</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-objectProjection">objectProjection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-omit">omit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pick">pick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGet">safeGet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGetOr">safeGetOr</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate">Predicate</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq">eq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gt">gt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gte">gte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lt">lt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lte">lte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notEq">notEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-range">range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rangeEqual">rangeEqual</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate-combinator">Predicate-Combinator</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-and">and</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-not">not</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notOr">notOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-or">or</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#string">String</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildResource">buildResource</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-camelCase">camelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-equalsIgnoreCase">equalsIgnoreCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstLowerLetter">getFirstLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstUpperLetter">getFirstUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastLowerLetter">getLastLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastUpperLetter">getLastUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kebabCase">kebabCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAll">replaceAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAllDifferences">replaceAllDifferences</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-snakeCase">snakeCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trim">trim</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-upperFirst">upperFirst</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-words">words</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#type">Type</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getType">getType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTypeByClass">getTypeByClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isArray">isArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isBoolean">isBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isDate">isDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isFunction">isFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNaN">isNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNegativeZero">isNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotArray">isNotArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotBoolean">isNotBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotDate">isNotDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotFunction">isNotFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNaN">isNotNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNegativeZero">isNotNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNull">isNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNumber">isNotNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotObject">isNotObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotPrimitive">isNotPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotRegExp">isNotRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotString">isNotString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotSymbol">isNotSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotUndefined">isNotUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNull">isNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNumber">isNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isObject">isObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPrimitive">isPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isRegExp">isRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isString">isString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSymbol">isSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notToBe">notToBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toBe">toBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeCheck">typeCheck</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Array/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { safeGet, deepClone, deepEquals } from &apos;../Object&apos;;
+import { getType, isString, isNumber } from &apos;../Type&apos;;
+import { partial, compose } from &apos;../Function&apos;;
+import { EMPTY } from &apos;../Constants/common&apos;;
+import * as TypeConstants from &apos;../Constants/types&apos;;
+
+/**
+ * @desc Sorts array of objects by given properties with priorities.
+ * @example
+ *  let given = [
+ *    { &apos;name&apos;: &apos;fred&apos;,   &apos;age&apos;: 48 },
+ *    { &apos;name&apos;: &apos;barney&apos;, &apos;age&apos;: 36 },
+ *    { &apos;name&apos;: &apos;fred&apos;,   &apos;age&apos;: 32 },
+ *    { &apos;name&apos;: &apos;barney&apos;, &apos;age&apos;: 34 }
+ *  ];
+ *
+ *  sortBy(given, [&apos;name&apos;, &apos;age&apos;]);
+ *  //  [
+ *  //    { name: &apos;barney&apos;, age: 34 },
+ *  //    { name: &apos;barney&apos;, age: 36 },
+ *  //    { name: &apos;fred&apos;, age: 32 },
+ *  //    { name: &apos;fred&apos;, age: 48 }
+ *  //  ]
+ * @param {Array&lt;object&gt;} source Source which requires sorting.
+ * @param {Array&lt;string&gt;} propList Sorting property list.
+ * @returns {Array&lt;object&gt;} Sorted array of objects.
+ */
+export function sortBy(source, propList) {
+  let sourceClone = deepClone(source)
+    , priorityProj = (first, second) =&gt; propName =&gt;
+    numAndStrComparator(first, second, propName);
+
+  return sourceClone.sort((a, b) =&gt;
+    compose(
+      head,
+      compact,
+      partial(map, EMPTY, priorityProj(a, b))
+    )(propList) || 0);
+};
+
+/**
+ * @desc Will group objects in array by property.
+ * @example
+ * let actualObjArr = [
+ *   { name: &apos;John&apos;, age: 21 },
+ *   { name: &apos;Liza&apos;, age: 23 },
+ *   { name: &apos;John&apos;, age: 23 }
+ * ];
+ *
+ * groupBy([&apos;one&apos;, &apos;two&apos;, &apos;three&apos;], &apos;length&apos;);
+ * // { &apos;3&apos;: [&apos;one&apos;, &apos;two&apos;], &apos;5&apos;: [&apos;three&apos;] }
+ *
+ * groupBy(actualObjArr, &apos;name&apos;);
+ * // {
+ * //   John: [ { name: &apos;John&apos;, age: 21 }, { name: &apos;John&apos;, age: 23 } ],
+ * //   Liza: [ { name: &apos;Liza&apos;, age: 23 } ]
+ * // }
+ *
+ * groupBy(actualObjArr, &apos;age&apos;);
+ * // {
+ * //   &apos;21&apos;: [ { name: &apos;John&apos;, age: 21 } ],
+ * //   &apos;23&apos;: [ { name: &apos;Liza&apos;, age: 23 }, { name: &apos;John&apos;, age: 23 } ]
+ * // };
+ * @param {Array&lt;object&gt;} source Source which should be used for grouping.
+ * @param  {string} groupVal Name which should be used for grouping.
+ * @returns {object} Grouped object.
+ */
+export function groupByProp(source, groupVal) {
+  return source.reduce((acc, val) =&gt;
+    Object.assign({}, acc, {
+      [val[groupVal]]: acc[val[groupVal]]
+      ? [...acc[val[groupVal]], val]
+      : [val]
+    }), {});
+};
+
+/**
+ * @desc Will group objects in array by function.
+ * @example
+ * groupByFn([6.1, 4.2, 6.3], Math.floor)
+ * // { &apos;4&apos;: [4.2], &apos;6&apos;: [6.1, 6.3] }
+ *
+ * groupByFn([
+ *   { name: &apos;John&apos;, age: 21 },
+ *   { name: &apos;Liza&apos;, age: 23 },
+ *   { name: &apos;John&apos;, age: 23 }
+ * ], item =&gt; `name_${item.name}`);
+ * // {
+ * //   name_John: [ { name: &apos;John&apos;, age: 21 }, { name: &apos;John&apos;, age: 23 } ],
+ * //   name_Liza: [ { name: &apos;Liza&apos;, age: 23 } ]
+ * // }
+ * @param {Array&lt;object&gt;} source Source which should be used for grouping.
+ * @param {Function} groupFn Function which will define names for groups.
+ * @returns {object} Grouped object.
+ */
+export function groupByFn(source, groupFn) {
+  return source.reduce((acc, val) =&gt; {
+    let propName = groupFn(val);
+    return Object.assign({}, acc, {
+      [propName]: acc[propName]
+        ? [...acc[propName], val]
+        : [val]
+    });
+  }, {});
+};
+
+/**
+ * @desc Will group objects in array by object path.
+ * @example
+ * groupByPath([
+ *   { name: { first: &apos;John&apos;, last: &apos;aaa&apos; }, age: 21 },
+ *   { name: { first: &apos;Liza&apos;, last: &apos;bbb&apos;}, age: 23 },
+ *   { name: { first: &apos;John&apos;, last: &apos;ccc&apos;}, age: 23 } ], [&apos;name&apos;, &apos;first&apos;]);
+ *
+ * // {
+ * //   John: [
+ * //     { name: { first: &apos;John&apos;, last: &apos;aaa&apos; }, age: 21 },
+ * //     { name: { first: &apos;John&apos;, last: &apos;ccc&apos; }, age: 23 }
+ * //   ],
+ * //   Liza: [
+ * //     { name :{ first: &apos;Liza&apos;, last: &apos;bbb&apos; }, age: 23 }
+ * //   ]
+ * // }
+ * @param {Array&lt;object&gt;} source Source which should be used for grouping.
+ * @param {*} groupPath Path which should be used as name for groups.
+ * @returns {object} Grouped object.
+ */
+export function groupByPath(source, groupPath) {
+  return source.reduce((acc, val) =&gt; {
+    let propName = safeGet(val, ...groupPath);
+    return Object.assign({}, acc, {
+      [propName]: acc[propName]
+        ? [...acc[propName], val]
+        : [val]
+    });
+  }, {});
+};
+
+/**
+ * @desc Will group objects in array by given property,
+ * function or path.
+ * @example
+ * let actualObjArr = [
+ *   { name: &apos;John&apos;, age: 21 },
+ *   { name: &apos;Liza&apos;, age: 23 },
+ *   { name: &apos;John&apos;, age: 23 }
+ * ];
+ *
+ * groupBy([&apos;one&apos;, &apos;two&apos;, &apos;three&apos;], &apos;length&apos;);
+ * // { &apos;3&apos;: [&apos;one&apos;, &apos;two&apos;], &apos;5&apos;: [&apos;three&apos;] });
+ *
+ * groupBy(actualObjArr, &apos;name&apos;);
+ * // {
+ * //   John: [ { name: &apos;John&apos;, age: 21 }, { name: &apos;John&apos;, age: 23 } ],
+ * //   Liza: [ { name: &apos;Liza&apos;, age: 23 } ]
+ * // }
+ *
+ * groupBy(actualObjArr, &apos;age&apos;);
+ * // {
+ * //   &apos;21&apos;: [ { name: &apos;John&apos;, age: 21 } ],
+ * //   &apos;23&apos;: [ { name: &apos;Liza&apos;, age: 23 }, { name: &apos;John&apos;, age: 23 } ]
+ * // };
+ *
+ * groupBy([6.1, 4.2, 6.3], Math.floor)
+ * // { &apos;4&apos;: [4.2], &apos;6&apos;: [6.1, 6.3] }
+ *
+ * groupBy([
+ *   { name: &apos;John&apos;, age: 21 },
+ *   { name: &apos;Liza&apos;, age: 23 },
+ *   { name: &apos;John&apos;, age: 23 }
+ * ], item =&gt; `name_${item.name}`);
+ * // {
+ * //   name_John: [ { name: &apos;John&apos;, age: 21 }, { name: &apos;John&apos;, age: 23 } ],
+ * //   name_Liza: [ { name: &apos;Liza&apos;, age: 23 } ]
+ * // }
+ *
+ * groupBy([
+ *   { name: { first: &apos;John&apos;, last: &apos;aaa&apos; }, age: 21 },
+ *   { name: { first: &apos;Liza&apos;, last: &apos;bbb&apos;}, age: 23 },
+ *   { name: { first: &apos;John&apos;, last: &apos;ccc&apos;}, age: 23 } ], [&apos;name&apos;, &apos;first&apos;]);
+ * // {
+ * //   John: [
+ * //     { name: { first: &apos;John&apos;, last: &apos;aaa&apos; }, age:21 },
+ * //     { name: { first: &apos;John&apos;, last: &apos;ccc&apos; }, age:23 }
+ * //   ],
+ * //   Liza: [
+ * //     { name :{ first: &apos;Liza&apos;, last: &apos;bbb&apos; }, age: 23 }
+ * //   ]
+ * // }
+ * @param  {...any} args grouping arguments.
+ * @returns {object} Grouped object.
+ */
+export function groupBy(...args) {
+  return ({
+    [TypeConstants.STRING]: groupByProp,
+    [TypeConstants.FUNCTION]: groupByFn,
+    [TypeConstants.ARRAY]: groupByPath,
+  })[getType(tail(args))](...args);
+};
+
+/**
+ * @desc Will create clone of given array.
+ * @example
+ * cloneArray([1,2,3]); // [1,2,3]
+ *
+ * cloneArray([{name: &apos;John&apos;}, {name: &apos;Liza&apos;}]); // [{name: &apos;John&apos;}, {name: &apos;Liza&apos;}]
+ *
+ * @param {Array&lt;T&gt;} source Array that
+ * should be cloned.
+ * @returns {Array&lt;T&gt;} Cloned array.
+ */
+export function cloneArray(source) {
+  return source.slice();
+};
+
+/**
+ * @desc Returns an array without match item.
+ * @example
+ * let numberArray = without([1, 2, 3], 1);
+ * numberArray // =&gt; [2, 3]
+ *
+ * @param {Array&lt;T&gt;} source Array from where to remove
+ * match item.
+ * @param {T} matchItem item that should not
+ * be included in result array.
+ * @returns {Array&lt;T&gt;} Array without matched element.
+ */
+export function without(source, matchItem) {
+  return source.filter(elem =&gt; elem !== matchItem);
+};
+
+/**
+ * @desc Creates an array with all falsey values removed.
+ * The values false, null, 0, &quot;&quot;, undefined, and NaN are falsey.
+ * @example
+ * let dataArray = [0, -3, &apos;Hello&apos;, &apos;&apos;, false, true, {}, [], null, undefined];
+ *
+ * compact(dataArray, 3); // [-3, &apos;Hello&apos;, true, {}, []]
+ *
+ * @param {Array&lt;T&gt;} source Array to compact.
+ * truthly values
+ * @return {Array&lt;T&gt;} Returns the new array of filtered values.
+ */
+export function compact(source) {
+  return source.filter(elem =&gt; elem);
+};
+
+/**
+ * @desc The opposite of filter; this method returns the elements of
+ * collection that predicate does not return truthy for.
+ * @example
+ *  let numberArray = [1, 2, 3]
+ *    , objectArray = [{ name: &apos;John&apos; }, { name: &apos;Liza&apos; }];
+ *
+ *  reject(numberArray, item =&gt; item &lt; 3) // [3]
+ *  reject(objectArray, user =&gt; user.name === &apos;Liza&apos;) // [{ name: &apos;John&apos; }]
+ *
+ * @param {Array&lt;T&gt;} source Array that should checked.
+ * @param {Function} fn Opposite filter function.
+ * @return {Array&lt;T&gt;} Returns the new filtered array.
+ */
+export function reject(source, fn) {
+  return source.reduce((accumulator, sourceValue) =&gt; {
+    if (!fn(sourceValue)) accumulator.push(sourceValue);
+    return accumulator;
+  }, []);
+};
+
+/**
+ * @desc Will shuffle elements in array.
+ * @example
+ * shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+ * // [ 1, 5, 3, 4, 2, 6, 10, 7, 8, 9 ]
+ *
+ * shuffle([
+ *   { name: &apos;name1&apos; },
+ *   { name: &apos;name2&apos; },
+ *   { name: &apos;name3&apos; },
+ *   { name: &apos;name4&apos; },
+ *   { name: &apos;name5&apos; },
+ *   { name: &apos;name6&apos; },
+ *   { name: &apos;name7&apos; },
+ *   { name: &apos;name8&apos; },
+ *   { name: &apos;name9&apos; },
+ *   { name: &apos;name10&apos; }
+ * ]);
+ * // [
+ * //   { name: &apos;name2&apos; },
+ * //   { name: &apos;name3&apos; },
+ * //   { name: &apos;name4&apos; },
+ * //   { name: &apos;name1&apos; },
+ * //   { name: &apos;name9&apos; },
+ * //   { name: &apos;name6&apos; },
+ * //   { name: &apos;name8&apos; },
+ * //   { name: &apos;name7&apos; },
+ * //   { name: &apos;name10&apos; },
+ * //   { name: &apos;name5&apos; }
+ * // ]
+ *
+ * @param {Array&lt;T&gt;} source Array to shuffle.
+ * @returns {Array&lt;T&gt;} Array that is shuffled out.
+ */
+export function shuffle(source) {
+  let arrCopy = source.slice();
+  return arrCopy.sort(() =&gt; Math.random() - 0.5);
+};
+
+/**
+ * @desc Will return first n elements.
+ * @example
+ * let numberArray = [1, 2, 3]
+ *   , objectArray = [{ name: &apos;John&apos; }, { name: &apos;Liza&apos; }];
+ *
+ * take(numberArray); // [1]
+ * take(objectArray); // [{ name: &apos;John&apos; }]
+ *
+ * take(numberArray, 2); // [1, 2]
+ * take(objectArray, 2); // [{ name: &apos;John&apos; }, { name: &apos;Liza&apos; }]
+ *
+ * @param {Array&lt;T&gt;} source Array to slice.
+ * @param {number} [sourceLength=1] Number of first n elements
+ * that should be returned back.
+ * @return {Array&lt;T&gt;} First n elements from Array.
+ */
+export function take(source, sourceLength = 1) {
+  return source.slice(0, sourceLength);
+};
+
+/**
+ * @desc Will return last n elements from an array.
+ * @param {Array&lt;T&gt;} source Array to slice.
+ * @param {number} [numberOfLastElements=1] Number of last n elements
+ * that should be returned back.
+ * @return {Array&lt;T&gt;} Last n elements from Array.
+ */
+export function takeRight(source, numberOfLastElements = 1) {
+  return source.slice(-numberOfLastElements);
+};
+
+/**
+ * @desc Creates a slice of array with elements taken from
+ * the beginning. Elements are taken until predicate returns
+ * falsey.
+ * @param {Array&lt;T&gt;} [source=[]] The array to query.
+ * @param {Function} whileFn The function invoked per iteration.
+ * @return {Array&lt;T&gt;} First n elements from Array before match.
+ */
+export function takeWhile(source = [], whileFn) {
+  let indexOf&#x421;oincidence = source.findIndex(whileFn)
+    , indexOfCutting = indexOf&#x421;oincidence &gt; -1
+        ? indexOf&#x421;oincidence : source.length;
+  return source.slice(0, indexOfCutting);
+};
+
+/**
+ * @desc Creates a slice of array with elements taken from
+ * the end. Elements are taken until predicate returns
+ * falsey.
+ * @param {Array&lt;T&gt;} [source=[]] The array to query.
+ * @param {Function} rightWhileFn The function invoked
+ * per iteration.
+ * @return {Array&lt;T&gt;} Last n elements from Array before match.
+ */
+export function takeRightWhile(source = [], rightWhileFn) {
+  let indexOf&#x421;oincidence = source.findIndex(rightWhileFn)
+    , indexOfCutting = indexOf&#x421;oincidence &gt; -1
+        ? indexOf&#x421;oincidence  + 1 : 0;
+  return source.slice(indexOfCutting, source.length);
+};
+
+/**
+ * @desc Will return array of selected properties.
+ * @param {Array&lt;Object&gt;} [source=[]] Array for propjection.
+ * @param {string} propName Name of the property from
+ * that should be included in Array.
+ * @return {Array&lt;T&gt;} Packed array of selected properties.
+ */
+export function pluck(source = [], propName) {
+  return source.map(item =&gt; item[propName]);
+};
+
+/**
+ * @desc Will fill array by given value.
+ * @param {T} source Fill value.
+ * @param {number} number Number of filled elements in Array.
+ * @return {Array&lt;T&gt;} Array with n elements filled by T.
+ */
+export function fill(source, number) {
+  return Array.from({ length: number }, i =&gt; source);
+}
+
+/**
+ * @desc Will fill array in the end for n elements and add
+ * given array from begining.
+ * @param {T} value Fill Value.
+ * @param {number} number Number of elements that should be filled
+ * in the end of returned an array.
+ * @param {Array&lt;T|D&gt;} [source=[]] Fill Value.
+ * @return {Array&lt;T|D&gt;} Returns combination from given
+ * and filled array.
+ */
+export function fillRight(value, number, source = []) {
+  return [...source, ...fill(value, number)];
+}
+
+/**
+ * @desc Will fill array in the begining for n elements and add
+ * given array in the end.
+ * @param {T} value Fill Value.
+ * @param {number} number Number of elements that should be filled
+ * in the begining of returned an array.
+ * @param {Array&lt;T|D&gt;} [source=[]] Fill Value.
+ * @return {Array&lt;T|D&gt;} Returns combination from given
+ * and filled array.
+ */
+export function fillLeft(value, number, source = []) {
+  return [...fill(value, number), ...source];
+}
+
+/**
+ * @desc Will return random element from array.
+ * @param {Array&lt;T&gt;} source Array from where should be
+ * choosen random element.
+ * @return {T} Random element.
+ */
+export function sample(source) {
+  var randomIndex = Math.floor(Math.random() * (source.length));
+  return source[randomIndex];
+};
+
+/**
+ * @desc Invokes the iteratee n times, returning an array of the results
+ * of each invocation.
+ * @param {number} iterationNumber Number of iterations.
+ * @param {Function} fn Function that should be invoked
+ * with each iteration.
+ * @return {Array&lt;T&gt;} Result array.
+ */
+export function times(iterationNumber, fn) {
+  return Array.apply(null, Array(iterationNumber)).map((elem, index) =&gt; fn(index));
+};
+
+/**
+ * @desc Checks if predicate returns truthy for all elements of collection.
+ * Iteration is stopped once predicate returns falsey.
+ * @param {Array&lt;T&gt;} [source=[]] Array to check.
+ * @param {Function} fn Predicate function.
+ * @return {boolean} true if all items will be returned by
+ * predicate function.
+ */
+export function every(source = [], fn) {
+  return source.filter(fn).length === source.length;
+};
+
+/**
+ * @desc Iterates over elements of collection, returning the first
+ * element predicate returns truthy for.
+ * @param {Array&lt;T&gt;} [source=[]] Array where check.
+ * @param {Function} fn Predicate function.
+ * @return {T} Item if it was found by function predicate.
+ */
+export function find(source = [], fn) {
+  return source.find(fn);
+};
+
+/**
+ * @desc Flattens array.
+ * @param {Array&lt;T&gt;} source Array that should be flatten.
+ * @return Returns the new flattened array.
+ */
+export function flatten(source) {
+  let result = []
+    , splitArray = (arr, result) =&gt; {
+      return arr.reduce((accumulator, item) =&gt; {
+        (item instanceof Array) ? splitArray(item, accumulator) : accumulator.push(item);
+        return accumulator;
+      }, result);
+    };
+
+  return splitArray(source, result)
+};
+
+/**
+ * @desc Will zip multiple Arrays using projection function.
+ * Takes arguments ArrayLike object that should include n number of arrays with
+ * same length and in the end should be projection function.
+ * @return {Array&lt;D&gt;} Projected Array.
+ */
+export function zipWithProjection() {
+  let argumentsArray = Array.from(arguments)
+    , projectionFn = argumentsArray.pop()
+    , sizeArray = argumentsArray.map(arrayItem =&gt; arrayItem.length)
+    , minArrayLength = Math.min(...sizeArray);
+
+  return times(minArrayLength, index =&gt;
+    projectionFn(...argumentsArray.map(arrayItem =&gt; arrayItem[index])));
+};
+
+/**
+ * @desc Will project array object.
+ * @param {Array&lt;T&gt;} [source] Array that should use projection function.
+ * @param {Function} fn Projection function.
+ * @return {Array&lt;D&gt;} Projection Array.
+ */
+export function map(source, fn) {
+  return source.map(fn);
+};
+
+/**
+ * @desc Will filter an array.
+ * @param {Array&lt;T&gt;} [source=[]] Array that should use filtered function.
+ * @param {Function} fn Predicate function.
+ * @return {Array&lt;T&gt;} Filtered Array.
+ */
+export function filter(source = [], fn) {
+  return source.filter(fn);
+};
+
+/**
+ * @desc Creates an array of grouped elements, the first of which
+ * contains the first elements of the given arrays, the second of
+ * which contains the second elements of the given arrays, and so on.
+ * @param {...Array&lt;T&gt;} source Array to zip.
+ * @return {Array&lt;D&gt;} Zipped Array.
+ */
+export function zip(...source) {
+  let sizeArray = source.map(arrayItem =&gt; arrayItem.length)
+    , minArrayLength = Math.min(...sizeArray);
+
+  return times(minArrayLength, index =&gt;
+    source.map(arrayItem =&gt; arrayItem[index]));
+};
+
+/**
+ * @desc Checks if predicate returns truthy for any element of collection.
+ * Iteration is stopped once predicate returns truthy. Is analog of any(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] The collection to iterate over.
+ * @param {Function} fn The collection to iterate over.
+ * @return {boolean} Returns true if any element passes the predicate check, else false.
+ */
+export function some(source = [], fn) {
+  return !!source.filter(fn).length;
+};
+
+/**
+ * @desc Checks if predicate returns truthy for any element of collection.
+ * Iteration is stopped once predicate returns truthy. Is analog some(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] The collection to iterate over.
+ * @param {Function} fn The collection to iterate over.
+ * @return {boolean} Returns true if any element passes the predicate check, else false.
+ */
+export function any(source = [], fn) {
+  return some(source, fn);
+};
+
+/**
+ * @desc Will return last element from array. Is analog of tail(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] Array where to check for last element.
+ * @return {T} Returns last element from Array.
+ */
+export function last(source = []) {
+  return source[source.length-1];
+};
+
+/**
+ * @desc Will return last element from array. Is analog of last(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] Array where to check for last element.
+ * @return {T} Returns last element from Array.
+ */
+export function tail(source) {
+  return last(source);
+}
+
+/**
+ * @desc Will return first element from array. Is analog of first(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] Array where to check for first element.
+ * @return {T} Returns first element from Array.
+ */
+export function head(source = []) {
+  return source[0];
+};
+
+/**
+ * @desc Will return first element from array. Is analog of head(*) function.
+ * @param {Array&lt;T&gt;} [source=[]] Array where to check for first element.
+ * @return {T} Returns first element from Array.
+ */
+export function first(source = []) {
+  return head(source);
+};
+
+/**
+ * @desc Will return element from array by given index.
+ * @example
+ * nth([51,35,23], 1) // 35
+ *
+ * @param {Array&lt;T&gt;} source Source where should be taken element by given index.
+ * @param {number} index Index of element which should be returned.
+ * @return {T} Returns nth element from Array.
+ */
+export function nth(source, index) {
+  return source[index];
+};
+
+/**
+ * @desc Casts values as an array if it&apos;s not one.
+ * @param {...T} valueToCast All values will be included in array that
+ * will be returned back.
+ * @return {Array&lt;T&gt;} Return array that will include all arguments.
+ */
+export function castArray(...valueToCast) {
+  return valueToCast;
+};
+
+/**
+ * @desc Returns array with changed order.
+ * @param {Array&lt;T&gt;} source Array that should change the order.
+ * @param {Array&lt;number&gt;} order Order Array.
+ * @return {Array&lt;T&gt;} Array with changed order.
+ */
+export function changeOrder(source, order) {
+  return order.reduce((accumulator, value) =&gt;
+    [...accumulator, source[value]], []);
+};
+
+/**
+ * @desc number or string comparator. Can be used in sort function.
+ * @example
+ * let given = [
+ *   { &apos;name&apos;: &apos;fred&apos;,   &apos;age&apos;: 48 },
+ *   { &apos;name&apos;: &apos;barney&apos;, &apos;age&apos;: 36 }
+ * ];
+ *
+ * numAndStrComparator(given[0], given[1], &apos;name&apos;); // 1
+ * numAndStrComparator(given[1], given[0],&apos;name&apos;); // -1
+ * numAndStrComparator(given[0], given[1],&apos;age&apos;); // 1
+ * numAndStrComparator(given[1], given[0],&apos;age&apos;); // -1
+ *
+ * @param {string|number} first First argumnet for comparation.
+ * @param {string|number} second Second argumnet for comparation.
+ * @param {string} prop Compare property.
+ * @returns {number} Comparation result.
+ */
+export function numAndStrComparator(first, second, prop) {
+  let valueArr = [first[prop], second[prop]];
+  if(valueArr.every(isString) || valueArr.every(isNumber)) {
+    if(first[prop] === second[prop]) return 0;
+    return (first[prop] &lt; second[prop]) ? -1 : 1;
+  }
+};
+
+/**
+ * @desc returns new array only with uniq elements
+ * @example
+ * uniq(
+ *   [
+ *     { id: 1, firstName: &apos;Jon&apos;, lastName: &apos;Snow&apos;, location: &apos;Winterfell&apos; },
+ *     { id: 2, firstName: &apos;Eddard&apos;, lastName: &apos;Stark&apos;, location: &apos;Winterfell&apos; },
+ *     { id: 3, firstName: &apos;Catelyn&apos;, lastName: &apos;Stark&apos;, location: &apos;Winterfell&apos; },
+ *     { id: 4, firstName: &apos;Roose&apos;, lastName: &apos;Bolton&apos;, location: &apos;Dreadfort&apos; },
+ *     { id: 4, firstName: &apos;Roose&apos;, lastName: &apos;Bolton&apos;, location: &apos;Dreadfort&apos; },
+ *     { id: 5, firstName: &apos;Ramsay&apos;, lastName: &apos;Snow&apos;, location: &apos;Dreadfort&apos; }
+ *   ]);
+ * // [
+ * //   { id: 1, firstName: &apos;Jon&apos;, lastName: &apos;Snow&apos;, location: &apos;Winterfell&apos; },
+ * //   { id: 2, firstName: &apos;Eddard&apos;, lastName: &apos;Stark&apos;, location: &apos;Winterfell&apos; },
+ * //   { id: 3, firstName: &apos;Catelyn&apos;, lastName: &apos;Stark&apos;, location: &apos;Winterfell&apos; },
+ * //   { id: 4, firstName: &apos;Roose&apos;, lastName: &apos;Bolton&apos;, location: &apos;Dreadfort&apos; },
+ * //   { id: 5, firstName: &apos;Ramsay&apos;, lastName: &apos;Snow&apos;, location: &apos;Dreadfort&apos; }
+ * // ]
+ *
+ * @param {Array&lt;any&gt;} source Source for uniqueness.
+ * @returns {Array&lt;any&gt;} New array only with unique elements.
+ */
+export function uniq(source) {
+  return source.reduce((acc, val) =&gt; {
+    return acc.find(item =&gt; deepEquals(item, val))
+      ? acc : [...acc, val];
+  }, []);
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

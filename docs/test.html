@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="">
+  <title data-ice="title">Test | js-helpers</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#array">Array</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-any">any</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-castArray">castArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changeOrder">changeOrder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneArray">cloneArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compact">compact</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fill">fill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillLeft">fillLeft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fillRight">fillRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-first">first</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flatten">flatten</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupBy">groupBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByFn">groupByFn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByPath">groupByPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupByProp">groupByProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-head">head</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-last">last</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nth">nth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-numAndStrComparator">numAndStrComparator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pluck">pluck</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reject">reject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sample">sample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-shuffle">shuffle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sortBy">sortBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tail">tail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-take">take</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRight">takeRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeRightWhile">takeRightWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeWhile">takeWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-times">times</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uniq">uniq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-without">without</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zip">zip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zipWithProjection">zipWithProjection</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">Constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EMPTY">EMPTY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ARRAY">ARRAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BOOLEAN">BOOLEAN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DATE">DATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FUNCTION">FUNCTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NULL">NULL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NUMBER">NUMBER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-OBJECT">OBJECT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-REG_EXP">REG_EXP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STRING">STRING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SYMBOL">SYMBOL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UNDEFINED">UNDEFINED</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">Context</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invoke">invoke</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-invokeWithCtx">invokeWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-using">using</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-wrap">wrap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#data-structures">Data-Structures</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/safe-tuple-builder.js~SafeTupleBuilder.html">SafeTupleBuilder</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html">Tuple</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#error">Error</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Error/incorrect-args-type-error.js~IncorrectArgsTypeError.html">IncorrectArgsTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-throwIncorrectArgsTypeErrorIfSomeOf">throwIncorrectArgsTypeErrorIfSomeOf</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fantasy-land">Fantasy-Land</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Either">Either</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Left">Left</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Right">Right</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Applicative">Applicative</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Apply">Apply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Functor">Functor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LazyFunctor">LazyFunctor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Monad">Monad</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Just">Just</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Maybe">Maybe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Nothing">Nothing</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSetoid">isSetoid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toSetoid">toSetoid</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function">Function</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-after">after</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compose">compose</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-curry">curry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-memoize">memoize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-once">once</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-orCurry">orCurry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partial">partial</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pipe">pipe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rearg">rearg</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unary">unary</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#function-combinators">Function-Combinators</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-alt">alt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-always">always</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-duplication">duplication</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flip">flip</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fork">fork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-identity">identity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-seq">seq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tap">tap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-thrush">thrush</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lens">Lens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assoc">assoc</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-assocPath">assocPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensIndex">lensIndex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lensProp">lensProp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathEq">pathEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathOr">pathOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pathSatisfies">pathSatisfies</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-prop">prop</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#math">Math</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-compareDecimalNumbers">compareDecimalNumbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-divide">divide</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomInt">getRandomInt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRandomIntFromTo">getRandomIntFromTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-multiply">multiply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-subtract">subtract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#object">Object</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneObject">cloneObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-conformsTo">conformsTo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepClone">deepClone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepEquals">deepEquals</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deepFreeze">deepFreeze</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithCtx">getWithCtx</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getWithProps">getWithProps</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-objectProjection">objectProjection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-omit">omit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pick">pick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGet">safeGet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-safeGetOr">safeGetOr</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate">Predicate</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq">eq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gt">gt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gte">gte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lt">lt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lte">lte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notEq">notEq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-range">range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rangeEqual">rangeEqual</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate-combinator">Predicate-Combinator</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-and">and</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-not">not</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notOr">notOr</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-or">or</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#string">String</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildResource">buildResource</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-camelCase">camelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-equalsIgnoreCase">equalsIgnoreCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstLowerLetter">getFirstLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFirstUpperLetter">getFirstUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastLowerLetter">getLastLowerLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLastUpperLetter">getLastUpperLetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-kebabCase">kebabCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAll">replaceAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replaceAllDifferences">replaceAllDifferences</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-snakeCase">snakeCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trim">trim</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-upperFirst">upperFirst</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-words">words</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#type">Type</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getType">getType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTypeByClass">getTypeByClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isArray">isArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isBoolean">isBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isDate">isDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isFunction">isFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNaN">isNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNegativeZero">isNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotArray">isNotArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotBoolean">isNotBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotDate">isNotDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotFunction">isNotFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNaN">isNotNaN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNegativeZero">isNotNegativeZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNull">isNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotNumber">isNotNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotObject">isNotObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotPrimitive">isNotPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotRegExp">isNotRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotString">isNotString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotSymbol">isNotSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotUndefined">isNotUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNull">isNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNumber">isNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isObject">isObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isPrimitive">isPrimitive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isRegExp">isRegExp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isString">isString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSymbol">isSymbol</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notToBe">notToBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toBe">toBe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeCheck">typeCheck</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Test</h1>
+<table class="test-summary">
+  <thead>
+    <tr>
+      <td class="test-description">Description</td>
+      <td class="test-target">Identifier</td>
+    </tr>
+  </thead>
+
+  <tbody data-ice="tests"><tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/array.spec.js.html#lineNumber6"><p>Array Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber9"><p>test: .sortBy(source, propList)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#sortBy</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber28"><p>test: .groupByProp(arr, groupVal)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#groupByProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber40"><p>test: .groupByFn(arr, groupFn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#groupByFn</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber49"><p>test: .groupByPath(arr, groupPath)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#groupByPath</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber59"><p>test: .groupBy(...args)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#groupBy</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber84"><p>test: .cloneArray(arrayToClone)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#cloneArray</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber99"><p>test: .without(source, item)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#without</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber105"><p>test: .compact(source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#compact</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber111"><p>test: .shuffle(arrToShuffle)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#shuffle</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber126"><p>test: .reject(source, fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#reject</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber135"><p>test: .filter(source, fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#filter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber144"><p>test: .take(array, numberOfLastElements = 1)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#take</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber156"><p>test: .takeRight(array, numberOfLastElements = 1)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#takeRight</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber168"><p>test: .takeWhile(array = [], whileFn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#takeWhile</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber183"><p>test: .takeRightWhile(array = [], rightWhileFn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#takeRightWhile</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber198"><p>test: .pluck(array = [], propName)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#pluck</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber205"><p>test: .fill(value, number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#fill</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber212"><p>test: .fillRight(value, number, arr)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#fillRight</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber221"><p>test: .fillLeft(value, number, arr)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#fillLeft</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber230"><p>test: .times(iterationNumber, fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#times</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber242"><p>test: .every(source = [], fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#every</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber251"><p>test: .flatten(arrayToConcat)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#flatten</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber257"><p>test: .zipWithProjection()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#zipWithProjection</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber264"><p>test: .map(arrayToMap, fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#map</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber270"><p>test: .zip(...arrayToZip)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#zip</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber275"><p>test: .some(source = [], fn) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#some</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber282"><p>test: .any(source = [], fn) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#any</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber289"><p>test: .sample(source) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#sample</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber299"><p>test: .find(source, fn) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#find</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber308"><p>test: .first(array = []) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#first</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber313"><p>test: .head(array = []) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#head</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber318"><p>test: .last(array = []) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#last</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber323"><p>test: .tail(array = []) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#tail</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber328"><p>test: .nth(source, index)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#nth</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber333"><p>test: .castArray(...valueToCast) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#castArray</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber340"><p>test: .changeOrder(argsArray, order) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#changeOrder</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber347"><p>test: .numAndStrComparator(first, second, prop)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#numAndStrComparator</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/array.spec.js.html#lineNumber364"><p>uniq(source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Array#uniq</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/context.spec.js.html#lineNumber7"><p>Context Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber10"><p>test: .using(ctx) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#using</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber24"><p>test: .using(ctx) with class</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#using</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber43"><p>test: .invoke(ctx)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invoke</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber57"><p>test: .invoke(ctx) with class</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invoke</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber76"><p>test: .invokeWithCtx(ctx, ...fns)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invokeWithCtx</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber89"><p>test: .invokeWithCtx(ctx, ...fns) with class</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invokeWithCtx</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber107"><p>test: using(ctx) invoke(...fns) with .wrap(fn, ...args)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invoke</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/context.spec.js.html#lineNumber119"><p>test: using(ctx) invoke(...fns) with .wrap(fn, ...args) with class</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Context#invoke</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber8"><p>SafeTupleBuilder Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="class/src/Data-Structures/safe-tuple-builder.js~SafeTupleBuilder.html">SafeTupleBuilder</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber11"><p>test: .of(...args)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>SafeTupleBuilder#of</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber31"><p>Tuple Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html">Tuple</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber34"><p>test: .getAll()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html#instance-method-getAll">Tuple#getAll</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber44"><p>test: .unpack()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html#instance-method-unpack">Tuple#unpack</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/data-structures.spec.js.html#lineNumber55"><p>test: .get(index)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="class/src/Data-Structures/tuple.js~Tuple.html#instance-method-get">Tuple#get</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber12"><p>Fantasy Land Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber15"><p>test: Functor</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Functor</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber33"><p>test: Apply</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Apply</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber57"><p>test: Applicative</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>*</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber81"><p>test: Monad</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Monad</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber129"><p>test: LazyFunctor</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#LazyFunctor</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber161"><p>test: Maybe</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber164"><p>test: Maybe.fromNullable</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#fromNullable</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber176"><p>test: Maybe.of</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#of</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber184"><p>test: Maybe.just</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#just</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber192"><p>test: Maybe.nothing</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#nothing</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber200"><p>test: Maybe.Just/Maybe.Nothing#map(f)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#map</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber220"><p>test: Maybe.Just/Maybe.Nothing#getValue()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#getValue</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber239"><p>test: Maybe.Just/Maybe.Nothing#get()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#get</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber259"><p>test: Maybe.Just/Maybe.Nothing#getOrElse()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#getOrElse</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber281"><p>test: Maybe.Just/Maybe.Nothing#chain()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#chain</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber296"><p>test: Maybe.Just/Maybe.Nothing#filter()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#filter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber314"><p>test: Either</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber317"><p>test: Either.fromNullable</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Maybe#fromNullable</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber329"><p>test: Either.of</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#of</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber337"><p>test: Either.tryCatch with falsy value</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#tryCatch</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber347"><p>test: Either.tryCatch with truthy value</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#tryCatch</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber356"><p>test: double Either.tryCatch</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#tryCatch</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber366"><p>test: Either.right</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#right</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber374"><p>test: Either.left</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#left</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber382"><p>test: Either.Right/Either.Left#map(f)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#map</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber402"><p>test: Either.Right/Either.Left#getValue()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#getValue</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber421"><p>test: Either.Right/Either.Left#get()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#get</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber441"><p>test: Either.Right/Either.Left#getOrElse()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#getOrElse</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber463"><p>test: Either.Right/Either.Left#chain()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#chain</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber478"><p>test: Either.Right/Either.Left#filter()</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#filter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber495"><p>test: Either.Rigth/Either.Left#getOrElseThrow(err)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#getOrElseThrow</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber516"><p>test: Either.Rigth/Either.Left#orElse(f)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Fantasy-Land#Either#orElse</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber538"><p>test: Setoid</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target">-</td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber539"><p>test: .toSetoid(eqFn) with positive case</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target">-</td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber558"><p>test: .toSetoid(eqFn) with negative case</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target">-</td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="2">
+  <td data-ice="testDescription" style="padding-left: 30px"><span><a href="test-file/specs/fantasy-land.spec.js.html#lineNumber577"><p>test: .isSetoid(obj)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target">-</td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber9"><p>Function Combinators Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber12"><p>test: .identity(value) (I combinator)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#identity</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber17"><p>test: .always(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#always</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber24"><p>test: .flip(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#flip</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber33"><p>test: .thrush(x)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#thrush</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber42"><p>test: .duplication(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#duplication</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber49"><p>test: .fork(join, fn1, fn2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#fork</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber55"><p>test: .seq(...fns)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#seq</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber65"><p>test: .alt(fn1, fn2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#alt</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function-combinators.spec.js.html#lineNumber72"><p>test: .tap(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function-Combinators#tap</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/function.spec.js.html#lineNumber7"><p>Function Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">Function</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber10"><p>test: .curry(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#curry</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber21"><p>test: .partial(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#partial</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber32"><p>test: .compose(...fns)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#compose</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber42"><p>test: .pipe(...fns)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#pipe</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber52"><p>test: .once(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#once</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber68"><p>test: .unary(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#unary</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber75"><p>test: .memoize(fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#memoize</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber94"><p>test: .rearg(fn, order) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#rearg</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber105"><p>test: .after(count, fn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#after</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/function.spec.js.html#lineNumber118"><p>test: .orCurry(fn, args)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Function#orCurry</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/lens.spec.js.html#lineNumber9"><p>Lens Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber12"><p>test: prop(propName, source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber18"><p>test: prop(propName, source) with inner object</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber25"><p>test: prop(propName, source) with wrong first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber30"><p>test: prop(propName, source) with wrong second argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber35"><p>test: prop(propName, source) with undefined first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber40"><p>test: prop(propName, source) with undefined second argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#prop</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber45"><p>test: lensIndex(index, source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber51"><p>test: lensIndex(index, source) with inner object</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber59"><p>test: lensIndex(index, source) with wrong first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber64"><p>test: lensIndex(index, source) with wrong second argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber69"><p>test: lensIndex(index, source) with undefined first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber74"><p>test: lensIndex(index, source) with undefined second argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensIndex</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber79"><p>test: lensProp(propName)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber88"><p>test: lensProp(propName) with wrong first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber93"><p>test: lensProp(propName) with wrong second argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber98"><p>test: lensProp(propName) with undefined first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber103"><p>test: lensProp(propName) with undefined first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#lensProp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber108"><p>test: assoc(propName, valueToBeSet, source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber117"><p>test: assoc(propName, valueToBeSet, source) with inner object</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber127"><p>test: assoc(propName, valueToBeSet, source) with wrong first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber132"><p>test: assoc(propName, valueToBeSet, source) with wrong third argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber137"><p>test: assoc(propName, valueToBeSet, source) with undefined first argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber142"><p>test: assoc(propName, valueToBeSet, source) with undefined third argument</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assoc</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber147"><p>test: assocPath(path, valueToBeSet, source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assocPath</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber162"><p>test: assocPath(path, valueToBeSet, source) with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assocPath</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber174"><p>test: assocPath(path, valueToBeSet, source) should not override old props</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#assocPath</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber208"><p>test: path(p, source)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#path</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber216"><p>test: pathEq(path, source, value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#pathEq</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber225"><p>test: pathOr(path, source, orValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#pathOr</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/lens.spec.js.html#lineNumber232"><p>test: pathSatisfies(path, source, satisfyFn)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Lens#pathSatisfies</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/math.spec.js.html#lineNumber7"><p>Math Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber10"><p>test: .compareDecimalNumbers(number1, number2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#compareDecimalNumbers</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber19"><p>test: .add(augend, ...addendList)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#add</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber27"><p>test: .subtract(minuend, ...subtrahendList)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#subtract</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber35"><p>test: .multiply(multiplier, ...multiplicandList)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#multiply</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber43"><p>test: .divide(dividend, ...divisorList)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#divide</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber51"><p>test: .getRandomInt(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#getRandomInt</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/math.spec.js.html#lineNumber58"><p>test: .getRandomIntFromTo(number1, number2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Math#getRandomIntFromTo</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/object.spec.js.html#lineNumber7"><p>Object Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber10"><p>test: .deepFreeze(obj)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#deepFreeze</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber30"><p>test: .cloneObject(objectToClone)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#cloneObject</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber39"><p>test: .deepClone(objectToDeepClone)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#deepClone</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber56"><p>test: .pick(source, ...pickArray)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#pick</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber67"><p>test: .omit(source, ...omitArray)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#omit</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber78"><p>test: .safeGet(obj, ...props)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#safeGet</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber87"><p>test: .safeGetOr(obj, orValue, ...props)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#safeGetOr</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber95"><p>test: .safeGet(obj, ...props) with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#safeGet</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber108"><p>test: .safeGetOr(obj, orValue, ...props) with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#safeGetOr</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber120"><p>test: .getWithProps(obj, ...props)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#getWithProps</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber130"><p>test: .getWithCtx(obj, ...props)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#getWithCtx</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber141"><p>test: .objectProjection(obj, cb, skipCb = (...args) =&gt; args) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#objectProjection</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber152"><p>test: conformsTo(object, predicateSetModel)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Object#conformsTo</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/object.spec.js.html#lineNumber162"><p>deepEquals(first, second)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>*</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber7"><p>Predicate Combinator Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber10"><p>test: .or(...predicates) - with number</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#or</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber21"><p>test: .or(...predicates) - with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#or</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber33"><p>test: .not(...predicates) - with number</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#not</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber44"><p>test: .not(...predicates) - with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#not</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber56"><p>test: .and(...predicates) - with string</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#and</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber68"><p>test: .and(...predicates) - with array</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#and</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate-combinator.spec.js.html#lineNumber81"><p>test: .notOr(...predicates)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate-Combinator#notOr</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/predicate.spec.js.html#lineNumber7"><p>Predicate Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber10"><p>test: .lt(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#lt</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber20"><p>test: .gt(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#gt</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber30"><p>test: .range(number1, number2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#range</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber40"><p>test: .lte(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#lte</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber50"><p>test: .gte(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#gte</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber60"><p>test: .rangeEqual(number1, number2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#rangeEqual</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber70"><p>test: .lt(number) combined with gt(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#lte</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber82"><p>test: .eq(elem1)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#eq</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/predicate.spec.js.html#lineNumber91"><p>test: .notEq(elem1)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Predicate#notEq</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/string.spec.js.html#lineNumber7"><p>String Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a></span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber10"><p>test: .buildResource(src, ...args)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#buildResource</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber17"><p>test: .replaceAll(replaceable, from, to)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#replaceAll</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber23"><p>test: .replaceAllDifferences(replaceable, fromList, to)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#replaceAllDifferences</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber29"><p>test: .includes(source, includement)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#includes</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber35"><p>test: .trim(strSource)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#trim</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber42"><p>test: .equalsIgnoreCase(str1, str2)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#equalsIgnoreCase</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber48"><p>test: .upperFirst(str = &quot;&quot;)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#upperFirst</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber54"><p>test: .getFirstUpperLetter(strValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#getFirstUpperLetter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber59"><p>test: .getLastUpperLetter(strValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#getLastUpperLetter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber64"><p>test: .getFirstLowerLetter(strValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#getFirstLowerLetter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber69"><p>test: .getLastLowerLetter(strValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#getFirstLowerLetter</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber74"><p>test: .words(strValue)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#words</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber81"><p>test: .snakeCase(str)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#snakeCase</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber88"><p>test: .kebabCase(str) </p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#kebabCase</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/string.spec.js.html#lineNumber95"><p>test: .camelCase(str)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>String#camelCase</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="0">
+  <td data-ice="testDescription" style="padding-left: 10px"><span data-ice="testInterfaceToggle" class="toggle closed"></span><span><a href="test-file/specs/type.spec.js.html#lineNumber9"><p>Type Library Tests</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber12"><p>test: .isNull(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNull</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber30"><p>test: .isNotNull(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotNull</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber48"><p>test: .isNaN(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNaN</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber66"><p>test: .isNotNaN(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotNaN</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber84"><p>test: .isNegativeZero(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNegativeZero</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber96"><p>test: .isNotNegativeZero(number)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotNegativeZero</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber108"><p>test: .isArray(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isArray</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber126"><p>test: .isNotArray(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotArray</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber144"><p>test: .isNumber(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNumber</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber162"><p>test: .isNotNumber(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotNumber</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber180"><p>test: .isUndefined(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isUndefined</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber199"><p>test: .isNotUndefined(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotUndefined</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber218"><p>test: .isDate(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isDate</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber238"><p>test: .isNotDate(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotDate</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber258"><p>test: .isObject(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isObject</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber279"><p>test: .isNotObject(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotObject</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber300"><p>test: .isBoolean(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isBoolean</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber322"><p>test: .isNotBoolean(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotBoolean</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber344"><p>test: .isSymbol(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isSymbol</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber366"><p>test: .isNotSymbol(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotSymbol</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber388"><p>test: .isString(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isString</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber411"><p>test: .isNotString(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotString</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber434"><p>test: .isRegExp(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isRegExp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber454"><p>test: .isNotRegExp(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotRegExp</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber474"><p>test: .isFunction(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isFunction</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber495"><p>test: .isNotFunction(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotFunction</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber516"><p>test: .isPrimitive(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isPrimitive</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber537"><p>test: .isNotPrimitive(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#isNotPrimitive</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber558"><p>test: .getType(value)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#getType</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber593"><p>test: .toBe(expectation)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#toBe</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber610"><p>test: .notToBe(expectation)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#notToBe</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber626"><p>test: .getTypeByClass(clazz)</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#getTypeByClass</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber642"><p>test .typeCheck(clazz, actualType) positive</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#typeCheck</span></td>
+</tr>
+
+<tr class="test-interface" data-ice="testInterface" style="display: none;" data-test-depth="1">
+  <td data-ice="testDescription" style="padding-left: 20px"><span><a href="test-file/specs/type.spec.js.html#lineNumber655"><p>test .typeCheck(clazz, actualType) negative</p>
+</a></span></td>
+  <td data-ice="testTarget" class="test-target"><span>Type#typeCheck</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
